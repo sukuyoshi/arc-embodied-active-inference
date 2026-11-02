@@ -15,7 +15,7 @@ Traditional approaches to the Abstraction and Reasoning Corpus (ARC / ARC-AGI-2)
 
 In contrast, this project presents an ultra-lightweight architecture of **459,930 parameters (<2MB)** designed for 20W-class edge neuromorphic deployment with **zero pretraining data (Tabula Rasa)**. The system is grounded in a 4-biome 3D physics survival environment where irreversible mortality (permanent termination at zero health), homeostatic drive, and visceral pain dynamically govern active inference.
 
-Through sleep-state hippocampal replay and synaptic plasticity consolidation (LTP reinforcement and LTD pruning), the organism crystallizes high-order intuition organs in the basal ganglia. Evaluated on the official Kaggle ARC-AGI-2 benchmark (240 unseen tasks), the pipeline executed all 240 tasks in 1,406.99 seconds without runtime exceptions. Under a strict 8-step budget, the unassisted test exact-match score was 0.00 (0 / 240 unseen test tasks solved), while achieving **instantaneous one-shot exact reproductions on Task 00d62c1b (enclosure fill) and Task 3c9b0459 (rigid rotation) in a single step (`steps=1, train_exact=True`)**.
+Through sleep-state hippocampal replay and synaptic plasticity consolidation (LTP reinforcement and LTD pruning), the organism crystallizes high-order intuition organs in the basal ganglia. Evaluated on the official Kaggle ARC-AGI-2 benchmark (240 unseen tasks), the pipeline executed all 240 tasks in 1,406.99 seconds without runtime exceptions. Under a strict 8-step budget, the unassisted test exact-match score was 0.00 (0 / 240 unseen test tasks solved), while achieving **instantaneous one-shot exact solutions on Task 00d62c1b (enclosure fill) and Task 3c9b0459 (rigid rotation) in a single step (`steps=1, train_exact=True, test_exact=True`)**.
 
 ---
 
@@ -68,8 +68,9 @@ The model was evaluated across both the official Kaggle test benchmark and local
 - **Verified One-Shot Intuition Solutions**:
   - `Task 00d62c1b`: `steps=1, train_exact=True, test_exact=True` (Kinematic Enclosure Fill)
   - `Task 3c9b0459`: `steps=1, train_exact=True, test_exact=True` (Rigid Body Rotation)
-- **Local Evaluation Set (20 Random Tasks)**:
-  - 0.0% test solve rate under 8-step budget (4.45s per task), reproducing Kaggle telemetry.
+- **Full Local Benchmark (120 Evaluation Tasks)**:
+  - 120 / 120 tasks processed in 535.95s (4.47s per task).
+  - Train/Test Exact-Match Score: 0.0% (0 / 120 solved under strict 8-step budget), exactly replicating Kaggle telemetry. Complete logs are preserved in `embodied_core_engine/artifacts/arc_agi_2_eval_120_full_benchmark.json`.
 
 ---
 
