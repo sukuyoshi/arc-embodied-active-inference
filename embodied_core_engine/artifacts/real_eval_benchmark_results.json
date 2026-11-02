@@ -1,0 +1,175 @@
+{
+  "total_tasks": 20,
+  "train_exact_solved": 0,
+  "test_exact_solved": 0,
+  "test_exact_pct": 0.0,
+  "train_exact_pct": 0.0,
+  "elapsed_sec": 89.05,
+  "results": [
+    {
+      "task_id": "0934a4d8",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "sensorimotor_chunk_target_largest_crop_grasped"
+      ]
+    },
+    {
+      "task_id": "135a2760",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "136b0064",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "sensorimotor_chunk_count_step_1_0",
+        "sensorimotor_chunk_mirror_author_gaze_wm_s_finger_d0_0",
+        "sensorimotor_chunk_mirror_author_gaze_wm_s_finger_d0_0",
+        "kinematic_extract_lattice_cells"
+      ]
+    },
+    {
+      "task_id": "13e47133",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "142ca369",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "16b78196",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "16de56c4",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "kinematic_swap_bg_fg"
+      ]
+    },
+    {
+      "task_id": "1818057f",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "195c6913",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "1ae2feb7",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "20270e3b",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "sensorimotor_chunk_target_largest_crop_grasped"
+      ]
+    },
+    {
+      "task_id": "20a9e565",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "sensorimotor_chunk_all_recolor_c5",
+        "sensorimotor_chunk_count_step_0_-1"
+      ]
+    },
+    {
+      "task_id": "21897d95",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "sensorimotor_chunk_all_recolor_c1"
+      ]
+    },
+    {
+      "task_id": "221dfab4",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "macro_breed_kinematic_boundary_contact__kinematic_boundary_contact",
+        "kinematic_cavity_filling_3"
+      ]
+    },
+    {
+      "task_id": "247ef758",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "269e22fb",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "kinematic_pad_border",
+        "kinematic_boundary_contact"
+      ]
+    },
+    {
+      "task_id": "271d71e2",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "28a6681f",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    },
+    {
+      "task_id": "291dc1e1",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": [
+        "sensorimotor_chunk_dyadic_largest_to_smallest_recolor_from_anchor",
+        "sensorimotor_chunk_mirror_author_gaze_wm_s_finger_d0_0"
+      ]
+    },
+    {
+      "task_id": "2b83f449",
+      "train_exact": false,
+      "test_exact": false,
+      "steps": 8,
+      "program": []
+    }
+  ]
+}
