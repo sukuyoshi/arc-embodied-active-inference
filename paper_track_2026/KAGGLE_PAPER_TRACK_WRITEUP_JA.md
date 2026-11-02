@@ -4,7 +4,7 @@
 **著者:** Anonymous Authors (Double-Blind Submission)  
 **所属:** Anonymous Laboratory of Embodied Intelligence  
 **対象トラック:** ARC Prize 2026 – Paper Track (賞金総額 $450,000 規模)  
-**匿名オープンソースリポジトリ:** `https://github.com/anonymous-embodied-agi/arc-embodied-active-inference` (MIT License)  
+**匿名オープンソースリポジトリ:** `https://github.com/sukuyoshi/arc-embodied-active-inference` (MIT License)  
 **キーワード:** 生命情報論、不可逆な死、能動的推論、自由エネルギー原理、機能的情動、原始言語創発、道具創造性、海馬リップル波再生、シナプス可塑性、20Wニューロモーフィック制約、ARC-AGI-2
 
 ---
@@ -184,5 +184,5 @@ flowchart TD
 
 本プロジェクトの全ソースコード、ニューロモーフィック脳重み、物理シミュレーション環境、基礎実験データ、およびKaggle再現用ノートブックは、二重盲検審査に対応した以下の公式匿名リポジトリにおいてMITライセンスの下で完全公開されている：
 
-**GitHub Repository:** `https://github.com/anonymous-embodied-agi/arc-embodied-active-inference`  
+**GitHub Repository:** `https://github.com/sukuyoshi/arc-embodied-active-inference`  
 **ライセンス:** MIT License (Copyright 2026 Anonymous Authors)

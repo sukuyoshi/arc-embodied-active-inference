@@ -4,7 +4,7 @@ Official Implementation and Research Artifacts for ARC Prize 2026 Paper Track.
 
 Autonomous Embodied Artificial General Intelligence architecture grounded in Life-Information Theory, Karl Friston's Free Energy Principle, and Cumulative Cultural Scaffolding.
 
-Repository: `https://github.com/anonymous-embodied-agi/arc-embodied-active-inference` (Double-Blind Anonymized)  
+Repository: `https://github.com/sukuyoshi/arc-embodied-active-inference` (Double-Blind Anonymized)  
 License: MIT License
 
 ---
@@ -74,7 +74,7 @@ The model was verified on the official Kaggle ARC-AGI-2 test benchmark:
 ### Installation
 
 ```bash
-git clone https://github.com/anonymous-embodied-agi/arc-embodied-active-inference.git
+git clone https://github.com/sukuyoshi/arc-embodied-active-inference.git
 cd arc-embodied-active-inference/arc-creativity-engine/embodied_core_engine
 pip install -r requirements.txt
 ```
