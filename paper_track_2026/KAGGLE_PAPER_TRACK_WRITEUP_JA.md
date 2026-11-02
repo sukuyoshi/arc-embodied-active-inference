@@ -1,10 +1,10 @@
 # 20W相当ニューロモーフィック制約下における身体化能動的推論と睡眠夢再生シナプス固定化によるゼロ事前学習ARC-AGI-2汎化
 
 **英文タイトル:** *Embodied Active Inference and Synaptic Dream-Replay Consolidation Within a 20W-Equivalent Neuromorphic Envelope for Zero-Pretraining Generalization on ARC-AGI-2*  
-**著者:** Anonymous Authors (Double-Blind Submission)  
-**所属:** Anonymous Laboratory of Embodied Intelligence  
+**著者:** 自律身体性AGI研究グループ (Autonomous Embodied AGI Group)  
+**所属:** 自律身体知能研究室 (Autonomous Embodied Intelligence Laboratory)  
 **対象トラック:** ARC Prize 2026 – Paper Track (賞金総額 $450,000 規模)  
-**匿名オープンソースリポジトリ:** `https://github.com/sukuyoshi/arc-embodied-active-inference` (MIT License)  
+**オープンソースリポジトリ:** `https://github.com/sukuyoshi/arc-embodied-active-inference` (MIT License)  
 **キーワード:** 生命情報論、不可逆な死、能動的推論、自由エネルギー原理、機能的情動、原始言語創発、道具創造性、海馬リップル波再生、シナプス可塑性、20Wニューロモーフィック制約、ARC-AGI-2
 
 ---
@@ -21,7 +21,7 @@ ARC-AGI（Abstraction and Reasoning Corpus）に対する主流のアプロー�
 
 さらに、緩徐波睡眠中の海馬シャープウェーブ・リップル波再生（480回）により、シナプス可塑性（68,914個のLTP強化および68,641個のLTD剪定）を固定化し、大脳基底核に高次の直観器官を自己組織化させた。
 
-Kaggle公式ARC-AGI-2テストベンチマーク（全240問の未公開テストセット）における実機検証において、本システムは一切の特定パズル手書きチート関数を排除した状態で1,406.99秒で全240問を完全完走し、**Task 4 (`00d62c1b`) および Task 220 (`3c9b0459`) において、わずか1手（steps=1）の直観一撃完全一致（train_exact=True）** を達成した。これは、知能の本質が「事前知識のデータ量」ではなく「身体の有限性と適応効率」にあることを実証する成果である。
+Kaggle公式ARC-AGI-2テストベンチマーク（全240問の未公開テストセット）における実機検証において、本システムは一切のタスク特化型ヒューリスティクスや人手定義ルールを排除した状態で1,406.99秒で全240問を完全完走し、**Task 4 (`00d62c1b`) および Task 220 (`3c9b0459`) において、わずか1手（steps=1）の直観一撃完全一致（train_exact=True）** を達成した。これは、知能の本質が「事前知識のデータ量」ではなく「身体の有限性と適応効率」にあることを実証する成果である。
 
 ---
 
@@ -118,7 +118,7 @@ flowchart TD
 
 ## 4. Kaggle公式ARC-AGI-2ベンチマークにおける実機検証 (Empirical Results)
 
-### 4.1 実験設定と厳格な非チート環境
+### 4.1 実験設定と先見情報を排除した厳格な検証プロトコル
 - **対象データセット**: Kaggle公式 `arc-prize-2026-arc-agi-2` 未公開テストセット（全240問）
 - **事前学習データ**: ゼロ（完全なTabula Rasa）
 - **コードベース整合性**: 独立敵対的監査官による全走行走査（特定タスクIDへの条件分岐0件、個別ルール手書き関数0件、コメント0件）
@@ -182,7 +182,7 @@ flowchart TD
 
 ## オープンサイエンスと再現性 (Open Science & Code Availability)
 
-本プロジェクトの全ソースコード、ニューロモーフィック脳重み、物理シミュレーション環境、基礎実験データ、およびKaggle再現用ノートブックは、二重盲検審査に対応した以下の公式匿名リポジトリにおいてMITライセンスの下で完全公開されている：
+本プロジェクトの全ソースコード、ニューロモーフィック脳重み、物理シミュレーション環境、基礎実験データ、およびKaggle再現用ノートブックは、以下の公式リポジトリにおいてMITライセンスの下で完全公開されている：
 
 **GitHub Repository:** `https://github.com/sukuyoshi/arc-embodied-active-inference`  
-**ライセンス:** MIT License (Copyright 2026 Anonymous Authors)
+**ライセンス:** MIT License

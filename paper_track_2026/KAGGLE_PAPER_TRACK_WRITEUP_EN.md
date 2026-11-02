@@ -1,9 +1,9 @@
 # Embodied Active Inference and Synaptic Dream-Replay Consolidation Within a 20W-Equivalent Neuromorphic Envelope for Zero-Pretraining Generalization on ARC-AGI-2
 
-**Authors:** Anonymous Authors (Double-Blind Submission)  
-**Affiliation:** Anonymous Laboratory of Embodied Intelligence  
+**Authors:** Autonomous Embodied AGI Research Group  
+**Affiliation:** Autonomous Embodied Intelligence Laboratory  
 **Track:** ARC Prize 2026 – Paper Track (Total Prize Pool $450,000)  
-**Anonymous Open Source Repository:** `https://github.com/sukuyoshi/arc-embodied-active-inference` (MIT License)  
+**Open Source Repository:** `https://github.com/sukuyoshi/arc-embodied-active-inference` (MIT License)  
 **Keywords:** Life-Information Theory, Irreversible Mortality, Active Inference, Functional Emotions, Proto-Language Emergence, Basal Ganglia Intuition Organs, Hippocampal SWR Replay, Synaptic Plasticity, 20W Neuromorphic Envelope, ARC-AGI-2
 
 ---
@@ -111,7 +111,7 @@ Post-exploration sensorimotor trajectories are stored in an episodic hippocampal
 
 ## 4. Empirical Evaluation on Official Kaggle ARC-AGI-2 Benchmark
 
-### 4.1 Benchmark Protocol and Anti-Cheat Integrity
+### 4.1 Benchmark Protocol and Evaluation Rigor
 - **Target Dataset**: Official Kaggle `arc-prize-2026-arc-agi-2` test challenges (240 unseen test tasks).
 - **Pretraining**: Strictly zero (Tabula Rasa).
 - **Codebase Audit**: Independently verified by automated adversarial auditors; zero task-specific heuristics, zero hardcoded rules, and zero comment injections.
@@ -177,5 +177,5 @@ From the spontaneous emergence of emotions and language in foundational simulati
 
 All source code, trained neuromorphic checkpoints, 3D simulation environments, foundational simulation logs, and Kaggle verification scripts are publicly available under the MIT License:
 
-**Anonymous GitHub Repository:** `https://github.com/sukuyoshi/arc-embodied-active-inference`  
-**License:** MIT License (Copyright 2026 Anonymous Authors)
+**GitHub Repository:** `https://github.com/sukuyoshi/arc-embodied-active-inference`  
+**License:** MIT License

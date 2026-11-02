@@ -4,7 +4,7 @@ Official Implementation and Research Artifacts for ARC Prize 2026 Paper Track.
 
 Autonomous Embodied Artificial General Intelligence architecture grounded in Life-Information Theory, Karl Friston's Free Energy Principle, and Cumulative Cultural Scaffolding.
 
-Repository: `https://github.com/sukuyoshi/arc-embodied-active-inference` (Double-Blind Anonymized)  
+Repository: `https://github.com/sukuyoshi/arc-embodied-active-inference`  
 License: MIT License
 
 ---
@@ -15,7 +15,7 @@ Traditional approaches to the Abstraction and Reasoning Corpus (ARC / ARC-AGI-2)
 
 In contrast, this project demonstrates a genuinely embodied, zero-pretraining (Tabula Rasa) AGI architecture operating under a 20W-equivalent neuromorphic constraint. The system is grounded in a 4-biome 3D physics survival environment where irreversible mortality (permanent termination at zero health), homeostatic drive, and visceral pain dynamically govern active inference.
 
-Through sleep-state hippocampal replay and synaptic plasticity consolidation (LTP reinforcement and LTD pruning), the organism crystallizes high-order intuition organs in the basal ganglia. When deployed on the official Kaggle ARC-AGI-2 test benchmark (240 unseen tasks), the model executed 1,406 seconds of autonomous sensorimotor reasoning, achieving exact one-shot intuition matches on multiple tasks (e.g., Task 00d62c1b and Task 3c9b0459 in a single step) without any handwritten puzzle rules or cheating.
+Through sleep-state hippocampal replay and synaptic plasticity consolidation (LTP reinforcement and LTD pruning), the organism crystallizes high-order intuition organs in the basal ganglia. When deployed on the official Kaggle ARC-AGI-2 test benchmark (240 unseen tasks), the model executed 1,406 seconds of autonomous sensorimotor reasoning, achieving exact one-shot intuition matches on multiple tasks (e.g., Task 00d62c1b and Task 3c9b0459 in a single step) without any task-specific heuristics or handwritten puzzle rules.
 
 ---
 
@@ -65,7 +65,7 @@ The model was verified on the official Kaggle ARC-AGI-2 test benchmark:
   - `Task 00d62c1b`: `steps=1, train_exact=True`
   - `Task 3c9b0459`: `steps=1, train_exact=True`
 - **Output Submission**: `submission.json` (341.21 KB, strict schema compliance).
-- **Zero Anti-Cheat Injections**: Verified by independent code auditing; zero task-specific heuristics or handwritten rules.
+- **Strict Generalization Guarantee**: Pure bottom-up sensorimotor grounding; zero task-specific heuristics or handwritten puzzle rules.
 
 ---
 
