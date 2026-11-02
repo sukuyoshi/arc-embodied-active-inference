@@ -1,0 +1,46 @@
+{
+  "sensorimotor_chunk::gaze_next_matching_attr+wm_store_attr+finger_apply_to_gaze": {
+    "chunk_sig": "sensorimotor_chunk::gaze_next_matching_attr+wm_store_attr+finger_apply_to_gaze",
+    "toy_kind": 2,
+    "gaze_op": "gaze_next_matching_attr",
+    "wm_op": "wm_store_attr",
+    "finger_op": "finger_apply_to_gaze",
+    "hits": 110,
+    "sample_key_color": 4,
+    "sample_val_color": 5,
+    "sample_count": 4
+  },
+  "sensorimotor_chunk::gaze_salient_target+wm_store_attr+finger_step_until_contact": {
+    "chunk_sig": "sensorimotor_chunk::gaze_salient_target+wm_store_attr+finger_step_until_contact",
+    "toy_kind": 0,
+    "gaze_op": "gaze_salient_target",
+    "wm_op": "wm_store_attr",
+    "finger_op": "finger_step_until_contact",
+    "hits": 35,
+    "sample_key_color": 2,
+    "sample_val_color": 9,
+    "sample_count": 3
+  },
+  "sensorimotor_chunk::gaze_corner_sample+wm_store_sample_pair+finger_paint_from_wm": {
+    "chunk_sig": "sensorimotor_chunk::gaze_corner_sample+wm_store_sample_pair+finger_paint_from_wm",
+    "toy_kind": 1,
+    "gaze_op": "gaze_corner_sample",
+    "wm_op": "wm_store_sample_pair",
+    "finger_op": "finger_paint_from_wm",
+    "hits": 74,
+    "sample_key_color": 4,
+    "sample_val_color": 9,
+    "sample_count": 4
+  },
+  "sensorimotor_chunk::gaze_count_objects+wm_store_count+finger_step_n_from_wm": {
+    "chunk_sig": "sensorimotor_chunk::gaze_count_objects+wm_store_count+finger_step_n_from_wm",
+    "toy_kind": 3,
+    "gaze_op": "gaze_count_objects",
+    "wm_op": "wm_store_count",
+    "finger_op": "finger_step_n_from_wm",
+    "hits": 1003,
+    "sample_key_color": 2,
+    "sample_val_color": 7,
+    "sample_count": 3
+  }
+}

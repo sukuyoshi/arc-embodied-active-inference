@@ -1,0 +1,10 @@
+{
+  "re_arc_generators_loaded": 400,
+  "world_static_json_tasks_indexed": 12106,
+  "arc2_train_cached": 1000,
+  "arc2_eval_cached": 120,
+  "virtual_multiverse_capacity": 1000000,
+  "initial_materialized_multiverse_tasks": 500,
+  "sample_generation_stream_count": 480,
+  "elapsed_sec": 81.35
+}

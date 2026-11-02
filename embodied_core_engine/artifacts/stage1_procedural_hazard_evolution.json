@@ -1,0 +1,132 @@
+{
+  "route": "Route1_Infinite_Procedural_3D_Hazard_Generator",
+  "procedural_cycles": 4,
+  "steps_per_cycle": 80,
+  "elapsed_sec": 52.0,
+  "exported_unified_brains": {
+    "sensory_pth": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\sensory_cortex.pth",
+    "sensory_onnx": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\sensory_cortex.onnx",
+    "neocortex_pth": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\neocortex_logic.pth",
+    "neocortex_gguf": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\neocortex_logic.gguf",
+    "motor_pth": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\motor_reflex.pth",
+    "motor_onnx": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\motor_reflex.onnx"
+  },
+  "three_brain_3d_education": {
+    "sensory_3d_loss_initial": 0.467296,
+    "sensory_3d_loss_final": 0.451598,
+    "motor_3d_loss_initial": 5.46079,
+    "motor_3d_loss_final": 0.114966,
+    "world_model_loss_initial": 0.042054,
+    "world_model_loss_final": 0.015369,
+    "closed_loop_3brain_steps": 320,
+    "neocortex_3d_toy_transitions_educated": 0
+  },
+  "terminal_survival_pct": 100.0,
+  "early_gen_survival_pct": 100.0,
+  "final_gen_survival_pct": 100.0,
+  "harvest_per_agent": 0.0,
+  "damage_events_per_agent": 2.92,
+  "mean_spike_firing_rate": 0.0922,
+  "mean_active_cell_ratio": 0.2188,
+  "thought_energy_consumed": 0.0506,
+  "toys_solved_per_agent": 0.0,
+  "curiosity_explorations_per_agent": 5.92,
+  "threat_observations_per_agent": 80.0,
+  "biome_dispersion_entropy": 0.8742,
+  "empathy_share_events": 0,
+  "verified_symbol_messages": 0,
+  "symbol_silence_decisions": 0,
+  "verified_symbol_messages_total": 0,
+  "symbol_silence_decisions_total": 0,
+  "dream_mutation_events": 198,
+  "sensorimotor_chunk_hits_total": 0,
+  "cerebellar_corrections_total": 0,
+  "discovered_sensorimotor_chunks": {
+    "sensorimotor_chunk::gaze_next_matching_attr+wm_store_attr+finger_apply_to_gaze": {
+      "chunk_sig": "sensorimotor_chunk::gaze_next_matching_attr+wm_store_attr+finger_apply_to_gaze",
+      "toy_kind": 2,
+      "gaze_op": "gaze_next_matching_attr",
+      "wm_op": "wm_store_attr",
+      "finger_op": "finger_apply_to_gaze",
+      "hits": 110,
+      "sample_key_color": 4,
+      "sample_val_color": 5,
+      "sample_count": 4
+    },
+    "sensorimotor_chunk::gaze_salient_target+wm_store_attr+finger_step_until_contact": {
+      "chunk_sig": "sensorimotor_chunk::gaze_salient_target+wm_store_attr+finger_step_until_contact",
+      "toy_kind": 0,
+      "gaze_op": "gaze_salient_target",
+      "wm_op": "wm_store_attr",
+      "finger_op": "finger_step_until_contact",
+      "hits": 35,
+      "sample_key_color": 2,
+      "sample_val_color": 9,
+      "sample_count": 3
+    },
+    "sensorimotor_chunk::gaze_corner_sample+wm_store_sample_pair+finger_paint_from_wm": {
+      "chunk_sig": "sensorimotor_chunk::gaze_corner_sample+wm_store_sample_pair+finger_paint_from_wm",
+      "toy_kind": 1,
+      "gaze_op": "gaze_corner_sample",
+      "wm_op": "wm_store_sample_pair",
+      "finger_op": "finger_paint_from_wm",
+      "hits": 74,
+      "sample_key_color": 4,
+      "sample_val_color": 9,
+      "sample_count": 4
+    },
+    "sensorimotor_chunk::gaze_count_objects+wm_store_count+finger_step_n_from_wm": {
+      "chunk_sig": "sensorimotor_chunk::gaze_count_objects+wm_store_count+finger_step_n_from_wm",
+      "toy_kind": 3,
+      "gaze_op": "gaze_count_objects",
+      "wm_op": "wm_store_count",
+      "finger_op": "finger_step_n_from_wm",
+      "hits": 1003,
+      "sample_key_color": 2,
+      "sample_val_color": 7,
+      "sample_count": 3
+    }
+  },
+  "procedural_dna_samples": [
+    {
+      "cycle_id": 0,
+      "pred_speed": 2.406,
+      "meteor_vz": -5.627,
+      "vortex_pull": 0.832,
+      "abyss_pull": 0.788,
+      "mimic_ratio": 0.226,
+      "terrain_shift_x": 0.834,
+      "signpost_freq": 0.243
+    },
+    {
+      "cycle_id": 1,
+      "pred_speed": 2.735,
+      "meteor_vz": -5.044,
+      "vortex_pull": 0.997,
+      "abyss_pull": 0.687,
+      "mimic_ratio": 0.278,
+      "terrain_shift_x": 2.452,
+      "signpost_freq": 0.185
+    },
+    {
+      "cycle_id": 2,
+      "pred_speed": 2.777,
+      "meteor_vz": -4.831,
+      "vortex_pull": 0.902,
+      "abyss_pull": 0.574,
+      "mimic_ratio": 0.32,
+      "terrain_shift_x": 3.583,
+      "signpost_freq": 0.195
+    },
+    {
+      "cycle_id": 3,
+      "pred_speed": 2.509,
+      "meteor_vz": -5.528,
+      "vortex_pull": 0.771,
+      "abyss_pull": 0.724,
+      "mimic_ratio": 0.345,
+      "terrain_shift_x": 4.0,
+      "signpost_freq": 0.246
+    }
+  ]
+}

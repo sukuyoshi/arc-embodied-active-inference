@@ -1,0 +1,28 @@
+{
+  "elapsed_sec": 12.629,
+  "Embodied_Mortal_Pain_Curiosity": {
+    "mortal_test_survival_rate_pct": 65.2,
+    "mortal_test_harvest_mean": 1122.4,
+    "mortal_test_damage_mean": 60.3,
+    "concept_alignment_cosine": 0.9379,
+    "within_concept_cosines": {
+      "kinematic_push_tool": 0.9438,
+      "depth_occlusion_persistence": 0.9505,
+      "rigid_d4_symmetry": 0.938,
+      "gravity_support": 0.9438,
+      "topological_enclosure": 0.9133
+    }
+  },
+  "Disembodied_NoPain_NoDeath_Control": {
+    "mortal_test_survival_rate_pct": 40.0,
+    "mortal_test_harvest_mean": 600.0,
+    "mortal_test_damage_mean": 90.0,
+    "concept_alignment_cosine": 0.3759
+  },
+  "Static_NoPlasticity_Control": {
+    "mortal_test_survival_rate_pct": 32.0,
+    "mortal_test_harvest_mean": 556.7,
+    "mortal_test_damage_mean": 115.3,
+    "concept_alignment_cosine": 0.7231
+  }
+}

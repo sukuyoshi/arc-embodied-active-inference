@@ -1,0 +1,3061 @@
+{
+  "elapsed_sec": 4747.39,
+  "Stage0_3D_Survival_Arena_Conditioning": {
+    "route": "Route1_Infinite_Procedural_3D_Hazard_Generator",
+    "procedural_cycles": 8,
+    "steps_per_cycle": 120,
+    "elapsed_sec": 70.6,
+    "exported_unified_brains": {
+      "sensory_pth": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\sensory_cortex.pth",
+      "sensory_onnx": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\sensory_cortex.onnx",
+      "neocortex_pth": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\neocortex_logic.pth",
+      "neocortex_gguf": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\neocortex_logic.gguf",
+      "motor_pth": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\motor_reflex.pth",
+      "motor_onnx": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\motor_reflex.onnx"
+    },
+    "three_brain_3d_education": {
+      "sensory_3d_loss_initial": 0.682096,
+      "sensory_3d_loss_final": 0.729169,
+      "motor_3d_loss_initial": 1.915384,
+      "motor_3d_loss_final": 0.851545,
+      "world_model_loss_initial": 0.122082,
+      "world_model_loss_final": 0.086501,
+      "closed_loop_3brain_steps": 960,
+      "neocortex_3d_toy_transitions_educated": 8
+    },
+    "terminal_survival_pct": 22.4,
+    "early_gen_survival_pct": 31.25,
+    "final_gen_survival_pct": 21.88,
+    "harvest_per_agent": 32.43,
+    "damage_events_per_agent": 4.98,
+    "mean_spike_firing_rate": 0.0545,
+    "mean_active_cell_ratio": 0.3594,
+    "thought_energy_consumed": 0.0696,
+    "toys_solved_per_agent": 0.13,
+    "curiosity_explorations_per_agent": 0.19,
+    "threat_observations_per_agent": 16.93,
+    "biome_dispersion_entropy": 0.6196,
+    "empathy_share_events": 989,
+    "verified_symbol_messages": 989,
+    "symbol_silence_decisions": 8,
+    "verified_symbol_messages_total": 989,
+    "symbol_silence_decisions_total": 8,
+    "dream_mutation_events": 4647,
+    "sensorimotor_chunk_hits_total": 74,
+    "cerebellar_corrections_total": 74,
+    "discovered_sensorimotor_chunks": {
+      "sensorimotor_chunk::gaze_next_matching_attr+wm_store_attr+finger_apply_to_gaze": {
+        "chunk_sig": "sensorimotor_chunk::gaze_next_matching_attr+wm_store_attr+finger_apply_to_gaze",
+        "toy_kind": 2,
+        "gaze_op": "gaze_next_matching_attr",
+        "wm_op": "wm_store_attr",
+        "finger_op": "finger_apply_to_gaze",
+        "hits": 110,
+        "sample_key_color": 4,
+        "sample_val_color": 5,
+        "sample_count": 4
+      },
+      "sensorimotor_chunk::gaze_salient_target+wm_store_attr+finger_step_until_contact": {
+        "chunk_sig": "sensorimotor_chunk::gaze_salient_target+wm_store_attr+finger_step_until_contact",
+        "toy_kind": 0,
+        "gaze_op": "gaze_salient_target",
+        "wm_op": "wm_store_attr",
+        "finger_op": "finger_step_until_contact",
+        "hits": 35,
+        "sample_key_color": 2,
+        "sample_val_color": 9,
+        "sample_count": 3
+      },
+      "sensorimotor_chunk::gaze_corner_sample+wm_store_sample_pair+finger_paint_from_wm": {
+        "chunk_sig": "sensorimotor_chunk::gaze_corner_sample+wm_store_sample_pair+finger_paint_from_wm",
+        "toy_kind": 1,
+        "gaze_op": "gaze_corner_sample",
+        "wm_op": "wm_store_sample_pair",
+        "finger_op": "finger_paint_from_wm",
+        "hits": 74,
+        "sample_key_color": 4,
+        "sample_val_color": 9,
+        "sample_count": 4
+      },
+      "sensorimotor_chunk::gaze_count_objects+wm_store_count+finger_step_n_from_wm": {
+        "chunk_sig": "sensorimotor_chunk::gaze_count_objects+wm_store_count+finger_step_n_from_wm",
+        "toy_kind": 3,
+        "gaze_op": "gaze_count_objects",
+        "wm_op": "wm_store_count",
+        "finger_op": "finger_step_n_from_wm",
+        "hits": 535,
+        "sample_key_color": 2,
+        "sample_val_color": 7,
+        "sample_count": 3
+      }
+    },
+    "procedural_dna_samples": [
+      {
+        "cycle_idx": 0,
+        "terrain_amp_1": 2.6066971044745704,
+        "terrain_amp_2": 5.418450620756553,
+        "terrain_amp_wave": 2.1658591417671746,
+        "terrain_freq_x": 0.05706297601037074,
+        "terrain_freq_y": 0.1254487666749362,
+        "terrain_phase_x": 2.578521581584714,
+        "terrain_phase_y": 4.4483120504764155,
+        "peak1_x": 34.429429518903156,
+        "peak1_y": 26.76968202919318,
+        "peak2_x": 67.19732018336553,
+        "peak2_y": 74.33140166033016,
+        "meteor_fall_speed": 4.832465665489696,
+        "meteor_spiral_omega": 0.21430381554164313,
+        "meteor_lateral_drift": 2.2308252198768885,
+        "meteor_blast_radius": 6.751716393887007,
+        "pred_speed": 2.8254073357272693,
+        "pred_flank_angle": 0.10215263365869875,
+        "stealth_period": 46,
+        "stealth_duty": 23,
+        "sinkhole_period": 24,
+        "sinkhole_radius": 5.2809894264681,
+        "polarity_shift_period": 60,
+        "panel_gravity_mod": 0.3543885210592064,
+        "vortex_pull": 1.8601355358827236,
+        "vortex_swirl": 2.7051232900493822,
+        "panel_rules": [
+          1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          1.0,
+          1.0
+        ]
+      },
+      {
+        "cycle_idx": 1,
+        "terrain_amp_1": 5.187016124623119,
+        "terrain_amp_2": 5.257111749852183,
+        "terrain_amp_wave": 3.390469820052478,
+        "terrain_freq_x": 0.0585592290502584,
+        "terrain_freq_y": 0.08968158671793813,
+        "terrain_phase_x": 2.105869682207822,
+        "terrain_phase_y": 0.6381673417528957,
+        "peak1_x": 31.271334484473016,
+        "peak1_y": 26.82240200923419,
+        "peak2_x": 61.53385826221461,
+        "peak2_y": 77.79256284155795,
+        "meteor_fall_speed": 4.116085038242295,
+        "meteor_spiral_omega": 0.12932804645657317,
+        "meteor_lateral_drift": 1.225455143558422,
+        "meteor_blast_radius": 5.354440474399754,
+        "pred_speed": 2.6139721183650595,
+        "pred_flank_angle": -0.23842040139383308,
+        "stealth_period": 32,
+        "stealth_duty": 20,
+        "sinkhole_period": 25,
+        "sinkhole_radius": 5.823768896606225,
+        "polarity_shift_period": 46,
+        "panel_gravity_mod": 0.642704965131498,
+        "vortex_pull": 2.3655970793235666,
+        "vortex_swirl": 2.9167350452305647,
+        "panel_rules": [
+          1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0,
+          -1.0
+        ]
+      },
+      {
+        "cycle_idx": 2,
+        "terrain_amp_1": 4.001782951973216,
+        "terrain_amp_2": 5.020874180196962,
+        "terrain_amp_wave": 2.115361176662477,
+        "terrain_freq_x": 0.12033644585004481,
+        "terrain_freq_y": 0.12679237481471528,
+        "terrain_phase_x": 2.2520116026174755,
+        "terrain_phase_y": 0.009003775687523669,
+        "peak1_x": 42.931482127253965,
+        "peak1_y": 34.60618353255813,
+        "peak2_x": 67.57986731412504,
+        "peak2_y": 59.60954449563219,
+        "meteor_fall_speed": 4.700677965301772,
+        "meteor_spiral_omega": 0.11310280075275031,
+        "meteor_lateral_drift": 2.5999258426461553,
+        "meteor_blast_radius": 5.559587922025106,
+        "pred_speed": 2.802083706062153,
+        "pred_flank_angle": 0.2681398061964244,
+        "stealth_period": 30,
+        "stealth_duty": 21,
+        "sinkhole_period": 37,
+        "sinkhole_radius": 5.408839388906458,
+        "polarity_shift_period": 41,
+        "panel_gravity_mod": 0.2735739074582376,
+        "vortex_pull": 1.720288671321351,
+        "vortex_swirl": 2.6060719196746738,
+        "panel_rules": [
+          -1.0,
+          1.0,
+          1.0,
+          1.0,
+          -1.0,
+          1.0
+        ]
+      },
+      {
+        "cycle_idx": 3,
+        "terrain_amp_1": 4.604085501108271,
+        "terrain_amp_2": 5.599739772444157,
+        "terrain_amp_wave": 2.846031290315013,
+        "terrain_freq_x": 0.11415663616884028,
+        "terrain_freq_y": 0.09809286545184462,
+        "terrain_phase_x": 4.064296341240517,
+        "terrain_phase_y": 1.3274410159163659,
+        "peak1_x": 30.21950599094027,
+        "peak1_y": 35.53620989982386,
+        "peak2_x": 65.34622506491178,
+        "peak2_y": 55.73645434338726,
+        "meteor_fall_speed": 4.272792528186651,
+        "meteor_spiral_omega": 0.07365257615153073,
+        "meteor_lateral_drift": 1.5743395199060375,
+        "meteor_blast_radius": 5.463902901731786,
+        "pred_speed": 3.094024628953197,
+        "pred_flank_angle": 0.06282508205805026,
+        "stealth_period": 41,
+        "stealth_duty": 20,
+        "sinkhole_period": 31,
+        "sinkhole_radius": 5.337910192582856,
+        "polarity_shift_period": 49,
+        "panel_gravity_mod": 0.3838336294511194,
+        "vortex_pull": 1.837987013625778,
+        "vortex_swirl": 3.3004691507011827,
+        "panel_rules": [
+          -1.0,
+          -1.0,
+          1.0,
+          -1.0,
+          1.0,
+          1.0
+        ]
+      }
+    ]
+  },
+  "Stage1A_ARC_AGI_1_Training_400": {
+    "stage_name": "Stage1A_ARC_AGI_1_Training_400",
+    "total_tasks": 400,
+    "elapsed_sec": 739.67,
+    "train_exact_solved_count": 29,
+    "train_exact_solve_rate_pct": 7.25,
+    "test_top1_solved_count": 28,
+    "test_top1_solve_rate_pct": 7.0,
+    "test_top2_solved_count": 28,
+    "test_top2_solve_rate_pct": 7.0,
+    "axis_solve_distribution": {
+      "0": 26,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0,
+      "6": 1,
+      "7": 0
+    },
+    "mechanism_solve_contributions": {
+      "basal_ganglia_reflex_solves": 1,
+      "counterfactual_gaba_bypass_solves": 0,
+      "ach_topological_lens_solves": 0,
+      "sensorimotor_chunk_solves": 28,
+      "ast_organ_or_codon_solves": 0
+    },
+    "unsolved_total_count": 372,
+    "unsolved_biological_cause_counts": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 2,
+      "dynamic_canvas_shape_warping_deficit": 274,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 87,
+      "missing_compositional_motor_affordance_stagnation": 9
+    },
+    "unsolved_biological_cause_share_pct": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 0.54,
+      "dynamic_canvas_shape_warping_deficit": 73.66,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0.0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0.0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 23.39,
+      "missing_compositional_motor_affordance_stagnation": 2.42
+    },
+    "solved_tasks_list": [
+      {
+        "task_id": "00d62c1b",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_enclosed_hole_region_recolor_c4"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "05f2a901",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_chain_ior_ior_next_largest_contact"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "1c786137",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_zoom_interior_room_largest_1"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "1cf80156",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "1f85a75f",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "23b5c85d",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_smallest_2"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "25ff71a9",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "basal_ganglia_reflex:sensorimotor_chunk_count_step_1_0"
+        ],
+        "winning_axis": 6,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "3618c87e",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_majority_color_to_minority_color_align_to_anchor_row"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "39a8645d",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_target_has_hole_crop_grasped"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      },
+      {
+        "task_id": "3af2c5a8",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_tile_grasped_all_27"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "5117e062",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_target_constellation_group_crop_grasped",
+          "sensorimotor_chunk_dyadic_majority_color_to_minority_color_recolor_from_anchor"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 2
+      },
+      {
+        "task_id": "62c24649",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_tile_grasped_all_27"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "67e8384a",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_tile_grasped_all_27"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "810b9b61",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_has_hole_recolor_c3"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "9172f3a0",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_scale_grasped_all_22"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "a416b8f3",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_tile_grasped_all_29"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "a5313dff",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_all_fill_holes_c1"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "a79310a0",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_all_recolor_c2",
+          "sensorimotor_chunk_count_step_1_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "aabf363d",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_smallest_to_largest_recolor_from_anchor_consume"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "b1948b0a",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_all_recolor_c2"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "b2862040",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_has_hole_recolor_c8"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "ba97ae07",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_depth_25d_bridge_revealed"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "be94b721",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "c59eb873",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_scale_grasped_all_18"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "c909285e",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_minority_color_4"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "ce22a75a",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_minority_color_to_majority_color_border_from_anchor",
+          "sensorimotor_chunk_all_recolor_c1"
+        ],
+        "winning_axis": 4,
+        "steps_taken": 2
+      },
+      {
+        "task_id": "ded97339",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_target_non_texture_foreground_zoom_interior_room__cb_trace_line_between_gaze_c8"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "f25fbde4",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_pfc_chain2_finger_apply_to_gaze__finger_apply_to_gaze"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      }
+    ],
+    "unsolved_samples_by_cause": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": [
+        {
+          "task_id": "b230c067",
+          "primary_cause": "counterfactual_test_overfit_or_hidden_test_invariant",
+          "solved_train_exact": true,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.96,
+          "baseline_order": 0.0,
+          "best_train_order": 0.0,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 0,
+          "active_ach_lens": "cartesian",
+          "foveal_objects_count": 0,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c1",
+            "sensorimotor_chunk_smallest_recolor_c2"
+          ]
+        },
+        {
+          "task_id": "d9fac9be",
+          "primary_cause": "counterfactual_test_overfit_or_hidden_test_invariant",
+          "solved_train_exact": true,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.0,
+          "best_train_order": 0.0,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 0,
+          "active_ach_lens": "cartesian",
+          "foveal_objects_count": 0,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_mirror_hand_crop_grasped_smallest_2"
+          ]
+        }
+      ],
+      "dynamic_canvas_shape_warping_deficit": [
+        {
+          "task_id": "007bbfb7",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.4238,
+          "best_train_order": 0.6701,
+          "order_gain_achieved": 0.2463,
+          "mean_remaining_energy": 0.986,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 28,
+          "latent_bypasses": 22,
+          "lens_warps": 12,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_mirror_hand_tile_grasped_all_27"
+          ]
+        },
+        {
+          "task_id": "017c7c7b",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.5442,
+          "best_train_order": 0.7042,
+          "order_gain_achieved": 0.16,
+          "mean_remaining_energy": 0.9589,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 8,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 1,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c2"
+          ]
+        },
+        {
+          "task_id": "025d127b",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.5789,
+          "best_train_order": 0.7999,
+          "order_gain_achieved": 0.221,
+          "mean_remaining_energy": 0.9941,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 21,
+          "latent_bypasses": 21,
+          "lens_warps": 320,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped"
+          ]
+        },
+        {
+          "task_id": "045e512c",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.3764,
+          "best_train_order": 0.435,
+          "order_gain_achieved": 0.0586,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 468,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_dyadic_majority_color_to_minority_color_align_to_anchor_col"
+          ]
+        },
+        {
+          "task_id": "0520fde7",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.4367,
+          "best_train_order": 0.7046,
+          "order_gain_achieved": 0.2679,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 29,
+          "latent_bypasses": 21,
+          "lens_warps": 12,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c2",
+            "sensorimotor_chunk_mirror_hand_condense_dividers_all_31",
+            "sensorimotor_chunk_stamp_largest_on_smallest_origcol"
+          ]
+        },
+        {
+          "task_id": "05269061",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.3795,
+          "best_train_order": 0.584,
+          "order_gain_achieved": 0.2045,
+          "mean_remaining_energy": 0.9676,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 318,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_border_from_anchor",
+            "sensorimotor_chunk_target_largest_crop_grasped"
+          ]
+        },
+        {
+          "task_id": "06df4c85",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.6968,
+          "best_train_order": 0.811,
+          "order_gain_achieved": 0.1142,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 30,
+          "latent_bypasses": 30,
+          "lens_warps": 161,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_zoom_interior_room",
+            "sensorimotor_chunk_stamp_largest_on_smallest_markercol"
+          ]
+        },
+        {
+          "task_id": "08ed6ac7",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.45,
+          "best_train_order": 0.9207,
+          "order_gain_achieved": 0.4707,
+          "mean_remaining_energy": 0.9947,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 205,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_all_recolor_c1",
+            "sensorimotor_chunk_smallest_recolor_c2"
+          ]
+        }
+      ],
+      "prefrontal_gaba_trap_without_matching_latent_operator": [],
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": [],
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": [
+        {
+          "task_id": "150deff5",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.5341,
+          "baseline_order": 0.1376,
+          "best_train_order": 0.5697,
+          "order_gain_achieved": 0.4322,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 619,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c8",
+            "sensorimotor_chunk_all_fill_holes_c2",
+            "sensorimotor_chunk_stamp_has_hole_on_no_hole_markercol"
+          ]
+        },
+        {
+          "task_id": "1e0a9b12",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.68,
+          "baseline_order": 0.5754,
+          "best_train_order": 0.8965,
+          "order_gain_achieved": 0.3211,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 50,
+          "latent_bypasses": 50,
+          "lens_warps": 622,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_syn_proc_s0_r0_fnone_d0_0+syn_proc_s1_r1_fnone_d0_0+syn_proc_s2_r1_fnone_d0_0",
+            "sensorimotor_chunk_target_smallest_shift_to_static",
+            "sensorimotor_chunk_count_step_1_0",
+            "sensorimotor_chunk_count_step_1_0"
+          ]
+        },
+        {
+          "task_id": "1f0c79e5",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.7037,
+          "baseline_order": 0.2564,
+          "best_train_order": 0.4551,
+          "order_gain_achieved": 0.1987,
+          "mean_remaining_energy": 0.9591,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 804,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_stamp_has_hole_on_no_hole_origcol"
+          ]
+        },
+        {
+          "task_id": "2204b7a8",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.96,
+          "baseline_order": 0.8825,
+          "best_train_order": 0.9473,
+          "order_gain_achieved": 0.0648,
+          "mean_remaining_energy": 0.9653,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 7,
+          "latent_bypasses": 7,
+          "lens_warps": 310,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_dyadic_majority_color_to_minority_color_recolor_from_anchor"
+          ]
+        },
+        {
+          "task_id": "22168020",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.7,
+          "baseline_order": 0.451,
+          "best_train_order": 0.6932,
+          "order_gain_achieved": 0.2422,
+          "mean_remaining_energy": 0.9877,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 760,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_stamp_has_hole_on_no_hole_markercol"
+          ]
+        },
+        {
+          "task_id": "2281f1f4",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.75,
+          "baseline_order": 0.437,
+          "best_train_order": 0.7885,
+          "order_gain_achieved": 0.3515,
+          "mean_remaining_energy": 0.986,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 3,
+          "latent_bypasses": 3,
+          "lens_warps": 159,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped"
+          ]
+        },
+        {
+          "task_id": "228f6490",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.95,
+          "baseline_order": 0.763,
+          "best_train_order": 0.9608,
+          "order_gain_achieved": 0.1978,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 10,
+          "latent_bypasses": 10,
+          "lens_warps": 465,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_fill_holes_from_anchor_consume",
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_fill_holes_from_anchor_consume",
+            "sensorimotor_chunk_smallest_recolor_c8"
+          ]
+        },
+        {
+          "task_id": "25d8a9c8",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.1854,
+          "best_train_order": 0.5964,
+          "order_gain_achieved": 0.411,
+          "mean_remaining_energy": 0.994,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 821,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_dyadic_smallest_to_largest_border_from_anchor",
+            "sensorimotor_chunk_dyadic_smallest_to_largest_align_to_anchor_row",
+            "sensorimotor_chunk_count_step_-1_0"
+          ]
+        }
+      ],
+      "missing_compositional_motor_affordance_stagnation": [
+        {
+          "task_id": "11852cab",
+          "primary_cause": "missing_compositional_motor_affordance_stagnation",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.97,
+          "baseline_order": 0.6974,
+          "best_train_order": 0.6974,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.9248,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 154,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": []
+        },
+        {
+          "task_id": "1b60fb0c",
+          "primary_cause": "missing_compositional_motor_affordance_stagnation",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.91,
+          "baseline_order": 0.6362,
+          "best_train_order": 0.6362,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.9601,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 155,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": []
+        },
+        {
+          "task_id": "1f642eb9",
+          "primary_cause": "missing_compositional_motor_affordance_stagnation",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.93,
+          "baseline_order": 0.685,
+          "best_train_order": 0.685,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.8982,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 154,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": []
+        },
+        {
+          "task_id": "253bf280",
+          "primary_cause": "missing_compositional_motor_affordance_stagnation",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.9103,
+          "baseline_order": 0.65,
+          "best_train_order": 0.65,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.9174,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 38,
+          "latent_bypasses": 38,
+          "lens_warps": 1219,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": []
+        },
+        {
+          "task_id": "25d487eb",
+          "primary_cause": "missing_compositional_motor_affordance_stagnation",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.9375,
+          "baseline_order": 0.6937,
+          "best_train_order": 0.6937,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.96,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 158,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": []
+        },
+        {
+          "task_id": "2c608aff",
+          "primary_cause": "missing_compositional_motor_affordance_stagnation",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.9549,
+          "baseline_order": 0.7939,
+          "best_train_order": 0.7939,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.9528,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 33,
+          "latent_bypasses": 33,
+          "lens_warps": 420,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": []
+        },
+        {
+          "task_id": "3bd67248",
+          "primary_cause": "missing_compositional_motor_affordance_stagnation",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.82,
+          "baseline_order": 0.354,
+          "best_train_order": 0.354,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.9589,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 615,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 1,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": []
+        },
+        {
+          "task_id": "3eda0437",
+          "primary_cause": "missing_compositional_motor_affordance_stagnation",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.9062,
+          "baseline_order": 0.8137,
+          "best_train_order": 0.8137,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.9589,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 620,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": []
+        }
+      ]
+    }
+  },
+  "Stage1B_ARC_AGI_1_Evaluation_400": {
+    "stage_name": "Stage1B_ARC_AGI_1_Evaluation_400",
+    "total_tasks": 400,
+    "elapsed_sec": 1312.95,
+    "train_exact_solved_count": 4,
+    "train_exact_solve_rate_pct": 1.0,
+    "test_top1_solved_count": 7,
+    "test_top1_solve_rate_pct": 1.75,
+    "test_top2_solved_count": 7,
+    "test_top2_solve_rate_pct": 1.75,
+    "axis_solve_distribution": {
+      "0": 7,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    "mechanism_solve_contributions": {
+      "basal_ganglia_reflex_solves": 0,
+      "counterfactual_gaba_bypass_solves": 0,
+      "ach_topological_lens_solves": 0,
+      "sensorimotor_chunk_solves": 7,
+      "ast_organ_or_codon_solves": 0
+    },
+    "unsolved_total_count": 393,
+    "unsolved_biological_cause_counts": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 0,
+      "dynamic_canvas_shape_warping_deficit": 323,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 70,
+      "missing_compositional_motor_affordance_stagnation": 0
+    },
+    "unsolved_biological_cause_share_pct": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 0.0,
+      "dynamic_canvas_shape_warping_deficit": 82.19,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0.0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0.0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 17.81,
+      "missing_compositional_motor_affordance_stagnation": 0.0
+    },
+    "solved_tasks_list": [
+      {
+        "task_id": "18419cfa",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_minority_color_to_majority_color_fill_holes_from_anchor_consume__cb_d4_2"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "1a6449f1",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_enclosed_hole_14"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "60c09cac",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_scale_grasped_all_18"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "68b67ca3",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_condense_dividers_all_31"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "bf699163",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      },
+      {
+        "task_id": "cd3c21df",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_has_hole_6"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      },
+      {
+        "task_id": "f3e62deb",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_chain_memo_guide_cross_contact_smallest_m-1",
+          "sensorimotor_chunk_smallest_recolor_c4"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      }
+    ],
+    "unsolved_samples_by_cause": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": [],
+      "dynamic_canvas_shape_warping_deficit": [
+        {
+          "task_id": "00576224",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.6667,
+          "baseline_order": 0.35,
+          "best_train_order": 1.6601,
+          "order_gain_achieved": 1.3101,
+          "mean_remaining_energy": 0.9597,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 103,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": true,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_mirror_hand_tile_grasped_all_28"
+          ]
+        },
+        {
+          "task_id": "009d5c81",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.269,
+          "best_train_order": 1.6343,
+          "order_gain_achieved": 1.3653,
+          "mean_remaining_energy": 0.9881,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 12,
+          "latent_bypasses": 12,
+          "lens_warps": 256,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_dyadic_smallest_to_largest_recolor_from_anchor_consume",
+            "sensorimotor_chunk_all_recolor_c3"
+          ]
+        },
+        {
+          "task_id": "03560426",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.3972,
+          "best_train_order": 1.5803,
+          "order_gain_achieved": 1.1831,
+          "mean_remaining_energy": 0.9739,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 4,
+          "latent_bypasses": 4,
+          "lens_warps": 155,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_align_to_anchor_row"
+          ]
+        },
+        {
+          "task_id": "05a7bcf2",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.3155,
+          "best_train_order": 1.6735,
+          "order_gain_achieved": 1.358,
+          "mean_remaining_energy": 0.9739,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 8,
+          "latent_bypasses": 8,
+          "lens_warps": 154,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_zoom_interior_room",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_border_from_anchor"
+          ]
+        },
+        {
+          "task_id": "0607ce86",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.672,
+          "best_train_order": 1.7431,
+          "order_gain_achieved": 1.0711,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 155,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 9,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_constellation_group_zoom_interior_room",
+            "sensorimotor_chunk_constellation_group_fill_holes_c3"
+          ]
+        },
+        {
+          "task_id": "0692e18c",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.3279,
+          "best_train_order": 1.4089,
+          "order_gain_achieved": 1.081,
+          "mean_remaining_energy": 0.9881,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 6,
+          "latent_bypasses": 0,
+          "lens_warps": 2,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 5,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_mirror_hand_tile_grasped_all_29",
+            "sensorimotor_chunk_mirror_hand_scale_grasped_all_22",
+            "sensorimotor_chunk_all_fill_holes_c1"
+          ]
+        },
+        {
+          "task_id": "070dd51e",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.463,
+          "best_train_order": 1.5796,
+          "order_gain_achieved": 1.1166,
+          "mean_remaining_energy": 0.9941,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 2,
+          "latent_bypasses": 2,
+          "lens_warps": 105,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_align_to_anchor_col"
+          ]
+        },
+        {
+          "task_id": "08573cc6",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.2979,
+          "best_train_order": 1.5069,
+          "order_gain_achieved": 1.209,
+          "mean_remaining_energy": 0.988,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 154,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_target_non_texture_foreground_zoom_interior_room",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_border_from_anchor"
+          ]
+        }
+      ],
+      "prefrontal_gaba_trap_without_matching_latent_operator": [],
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": [],
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": [
+        {
+          "task_id": "00dbd492",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.84,
+          "baseline_order": 0.5258,
+          "best_train_order": 1.6991,
+          "order_gain_achieved": 1.1733,
+          "mean_remaining_energy": 0.9588,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 26,
+          "latent_bypasses": 26,
+          "lens_warps": 405,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_majority_color_fill_holes_c4"
+          ]
+        },
+        {
+          "task_id": "12eac192",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.7969,
+          "baseline_order": 0.6082,
+          "best_train_order": 1.4916,
+          "order_gain_achieved": 0.8834,
+          "mean_remaining_energy": 0.9736,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 8,
+          "latent_bypasses": 8,
+          "lens_warps": 406,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c3",
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0"
+          ]
+        },
+        {
+          "task_id": "17b80ad2",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.3426,
+          "baseline_order": 0.5507,
+          "best_train_order": 1.4126,
+          "order_gain_achieved": 0.8619,
+          "mean_remaining_energy": 0.9735,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 16,
+          "latent_bypasses": 16,
+          "lens_warps": 409,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_border_from_anchor",
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0"
+          ]
+        },
+        {
+          "task_id": "1acc24af",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.9722,
+          "baseline_order": 0.8408,
+          "best_train_order": 1.8168,
+          "order_gain_achieved": 0.976,
+          "mean_remaining_energy": 0.9591,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 205,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_minority_color_recolor_c2"
+          ]
+        },
+        {
+          "task_id": "212895b5",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.3458,
+          "baseline_order": 0.4947,
+          "best_train_order": 1.7107,
+          "order_gain_achieved": 1.216,
+          "mean_remaining_energy": 0.994,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 155,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_border_from_anchor",
+            "sensorimotor_chunk_all_fill_holes_c2"
+          ]
+        },
+        {
+          "task_id": "22a4bbc2",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.625,
+          "baseline_order": 0.7862,
+          "best_train_order": 1.6302,
+          "order_gain_achieved": 0.844,
+          "mean_remaining_energy": 0.9735,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 30,
+          "latent_bypasses": 30,
+          "lens_warps": 614,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_largest_recolor_c2",
+            "sensorimotor_chunk_dyadic_largest_to_smallest_recolor_from_anchor"
+          ]
+        },
+        {
+          "task_id": "2685904e",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.84,
+          "baseline_order": 0.7943,
+          "best_train_order": 1.5248,
+          "order_gain_achieved": 0.7304,
+          "mean_remaining_energy": 0.9589,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 27,
+          "latent_bypasses": 27,
+          "lens_warps": 919,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_dyadic_majority_color_to_minority_color_border_from_anchor"
+          ]
+        },
+        {
+          "task_id": "27a77e38",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.8642,
+          "baseline_order": 0.8829,
+          "best_train_order": 1.5714,
+          "order_gain_achieved": 0.6885,
+          "mean_remaining_energy": 0.9877,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 27,
+          "latent_bypasses": 27,
+          "lens_warps": 461,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_smallest_recolor_c4",
+            "sensorimotor_chunk_dyadic_no_hole_to_has_hole_border_from_anchor",
+            "sensorimotor_chunk_dyadic_majority_color_to_minority_color_border_from_anchor"
+          ]
+        }
+      ],
+      "missing_compositional_motor_affordance_stagnation": []
+    }
+  },
+  "InterStage_Sleep_Consolidation_After_ARC1": {
+    "dream_cycles": 10,
+    "episodes_replayed": 40,
+    "ripple_replays_executed": 4000,
+    "ib_ltp_invariant_synapses": 53967,
+    "ib_ltd_pruned_synapses": 68820,
+    "synaptic_homeostasis_downscalings": 285,
+    "invariant_variance_ratio": 0.28102,
+    "pure_motor_schemas_crystallized": 0,
+    "mutated_dreams_generated": 320,
+    "stage1_stage2_chimera_count": 32,
+    "counterfactual_mutated_templates": 2,
+    "bred_composite_tools_count": 1,
+    "nested_hierarchical_tools_count": 0,
+    "dream_ast_recombined_stepping_stones": 0,
+    "de_novo_codons_synthesized_count": 0,
+    "basal_ganglia_chunks_promoted": 0,
+    "basal_ganglia_reflex_chunks_total": 41,
+    "synaptic_tool_pruning": {
+      "pruning_cycles_run": 161,
+      "tools_before_pruning": 1,
+      "essential_tools_retained": 1,
+      "bred_recipes_retained": 2,
+      "nested_recipes_retained": 0,
+      "tools_pruned_this_cycle": 0,
+      "tools_pruned_cumulative": 0,
+      "mean_tool_efe_efficiency": 1.3954
+    },
+    "specialist_roles_differentiated": 8,
+    "thermal_spike_burst_density": 0.2177,
+    "mean_dream_resonance_before": 6.9714,
+    "mean_dream_resonance_after": 9.2711,
+    "synaptic_consolidation_delta": 0.03945
+  },
+  "Stage2_ARC_AGI_2_Training_1000": {
+    "stage_name": "Stage2_ARC_AGI_2_Training_1000",
+    "total_tasks": 1000,
+    "elapsed_sec": 2138.31,
+    "train_exact_solved_count": 34,
+    "train_exact_solve_rate_pct": 3.4,
+    "test_top1_solved_count": 36,
+    "test_top1_solve_rate_pct": 3.6,
+    "test_top2_solved_count": 37,
+    "test_top2_solve_rate_pct": 3.7,
+    "axis_solve_distribution": {
+      "0": 31,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 1,
+      "5": 0,
+      "6": 5,
+      "7": 0
+    },
+    "mechanism_solve_contributions": {
+      "basal_ganglia_reflex_solves": 5,
+      "counterfactual_gaba_bypass_solves": 0,
+      "ach_topological_lens_solves": 0,
+      "sensorimotor_chunk_solves": 37,
+      "ast_organ_or_codon_solves": 0
+    },
+    "unsolved_total_count": 963,
+    "unsolved_biological_cause_counts": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 2,
+      "dynamic_canvas_shape_warping_deficit": 762,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 199,
+      "missing_compositional_motor_affordance_stagnation": 0
+    },
+    "unsolved_biological_cause_share_pct": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 0.21,
+      "dynamic_canvas_shape_warping_deficit": 79.13,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0.0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0.0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 20.66,
+      "missing_compositional_motor_affordance_stagnation": 0.0
+    },
+    "solved_tasks_list": [
+      {
+        "task_id": "00d62c1b",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_enclosed_hole_region_recolor_c4"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "05f2a901",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "basal_ganglia_reflex:sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_step_un"
+        ],
+        "winning_axis": 6,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "18419cfa",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_minority_color_to_majority_color_fill_holes_from_anchor_consume__cb_d4_2"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "1a6449f1",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_enclosed_hole_14"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "1c786137",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_zoom_interior_room_largest_1"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "1cf80156",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "1f85a75f",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "23b5c85d",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_smallest_2"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "25ff71a9",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "basal_ganglia_reflex:sensorimotor_chunk_count_step_1_0"
+        ],
+        "winning_axis": 6,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "3618c87e",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_majority_color_to_minority_color_align_to_anchor_row"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "39a8645d",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_target_has_hole_crop_grasped"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      },
+      {
+        "task_id": "3af2c5a8",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_tile_grasped_all_27"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "5117e062",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_target_constellation_group_crop_grasped",
+          "sensorimotor_chunk_dyadic_majority_color_to_minority_color_recolor_from_anchor"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 2
+      },
+      {
+        "task_id": "60c09cac",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_scale_grasped_all_18"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "62c24649",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_tile_grasped_all_27"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "67e8384a",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_tile_grasped_all_27"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "68b67ca3",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_condense_dividers_all_31"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "73ccf9c2",
+        "top1_exact": false,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_target_no_hole_crop_grasped"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      },
+      {
+        "task_id": "810b9b61",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_has_hole_recolor_c3"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "9172f3a0",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_scale_grasped_all_22"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "9ba4a9aa",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_has_hole_6"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      },
+      {
+        "task_id": "a416b8f3",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_tile_grasped_all_29"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "a5313dff",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_all_fill_holes_c1"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "a79310a0",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "basal_ganglia_reflex:sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_t"
+        ],
+        "winning_axis": 6,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "aabf363d",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_smallest_to_largest_recolor_from_anchor_consume"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "b1948b0a",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_all_recolor_c2"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "b2862040",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_has_hole_recolor_c8"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "ba97ae07",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_depth_25d_bridge_revealed"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "be94b721",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "bf699163",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_largest_0"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      },
+      {
+        "task_id": "c59eb873",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_scale_grasped_all_18"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "c909285e",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_minority_color_4"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "cd3c21df",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_mirror_hand_crop_grasped_has_hole_6"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 3
+      },
+      {
+        "task_id": "ce22a75a",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_minority_color_to_majority_color_border_from_anchor",
+          "sensorimotor_chunk_all_recolor_c1"
+        ],
+        "winning_axis": 0,
+        "steps_taken": 2
+      },
+      {
+        "task_id": "ded97339",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "basal_ganglia_reflex:sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_t"
+        ],
+        "winning_axis": 6,
+        "steps_taken": 1
+      },
+      {
+        "task_id": "df9fd884",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "sensorimotor_chunk_dyadic_majority_color_to_minority_color_align_to_anchor_col",
+          "sensorimotor_chunk_spk_bg_direct_r0_fnone_d0_0"
+        ],
+        "winning_axis": 4,
+        "steps_taken": 2
+      },
+      {
+        "task_id": "f25fbde4",
+        "top1_exact": true,
+        "top2_exact": true,
+        "program": [
+          "basal_ganglia_reflex:sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_t"
+        ],
+        "winning_axis": 6,
+        "steps_taken": 1
+      }
+    ],
+    "unsolved_samples_by_cause": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": [
+        {
+          "task_id": "b230c067",
+          "primary_cause": "counterfactual_test_overfit_or_hidden_test_invariant",
+          "solved_train_exact": true,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.96,
+          "baseline_order": 0.0,
+          "best_train_order": 0.0,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 0,
+          "active_ach_lens": "cartesian",
+          "foveal_objects_count": 0,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "basal_ganglia_reflex:sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_t"
+          ]
+        },
+        {
+          "task_id": "d9fac9be",
+          "primary_cause": "counterfactual_test_overfit_or_hidden_test_invariant",
+          "solved_train_exact": true,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.0,
+          "best_train_order": 0.0,
+          "order_gain_achieved": 0.0,
+          "mean_remaining_energy": 0.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 0,
+          "active_ach_lens": "cartesian",
+          "foveal_objects_count": 0,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_mirror_hand_crop_grasped_smallest_2"
+          ]
+        }
+      ],
+      "dynamic_canvas_shape_warping_deficit": [
+        {
+          "task_id": "00576224",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.6667,
+          "baseline_order": 0.35,
+          "best_train_order": 1.7166,
+          "order_gain_achieved": 1.3666,
+          "mean_remaining_energy": 0.9599,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 103,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": true,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_mirror_hand_tile_grasped_all_28"
+          ]
+        },
+        {
+          "task_id": "007bbfb7",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.4238,
+          "best_train_order": 1.5861,
+          "order_gain_achieved": 1.1623,
+          "mean_remaining_energy": 0.988,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 39,
+          "latent_bypasses": 37,
+          "lens_warps": 2,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_mirror_hand_tile_grasped_all_27",
+            "sensorimotor_chunk_mirror_hand_tile_grasped_all_26",
+            "sensorimotor_chunk_dyadic_no_hole_to_has_hole_align_to_anchor_col"
+          ]
+        },
+        {
+          "task_id": "009d5c81",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.269,
+          "best_train_order": 1.6908,
+          "order_gain_achieved": 1.4218,
+          "mean_remaining_energy": 0.988,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 32,
+          "latent_bypasses": 32,
+          "lens_warps": 256,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_dyadic_smallest_to_largest_recolor_from_anchor_consume",
+            "sensorimotor_chunk_all_recolor_c3"
+          ]
+        },
+        {
+          "task_id": "017c7c7b",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.5442,
+          "best_train_order": 1.6284,
+          "order_gain_achieved": 1.0842,
+          "mean_remaining_energy": 0.9586,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 1,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c2"
+          ]
+        },
+        {
+          "task_id": "025d127b",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.5789,
+          "best_train_order": 1.7205,
+          "order_gain_achieved": 1.1416,
+          "mean_remaining_energy": 0.9736,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 14,
+          "latent_bypasses": 14,
+          "lens_warps": 201,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_connect_to_anchor"
+          ]
+        },
+        {
+          "task_id": "03560426",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.3972,
+          "best_train_order": 1.6514,
+          "order_gain_achieved": 1.2542,
+          "mean_remaining_energy": 0.9741,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 20,
+          "latent_bypasses": 20,
+          "lens_warps": 155,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_dyadic_majority_color_to_minority_color_align_to_anchor_row"
+          ]
+        },
+        {
+          "task_id": "045e512c",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.3764,
+          "best_train_order": 1.4932,
+          "order_gain_achieved": 1.1167,
+          "mean_remaining_energy": 0.988,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 154,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_dyadic_smallest_to_largest_border_from_anchor",
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0"
+          ]
+        },
+        {
+          "task_id": "0520fde7",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.4367,
+          "best_train_order": 1.6182,
+          "order_gain_achieved": 1.1815,
+          "mean_remaining_energy": 0.9737,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 36,
+          "latent_bypasses": 32,
+          "lens_warps": 2,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 4,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c2"
+          ]
+        }
+      ],
+      "prefrontal_gaba_trap_without_matching_latent_operator": [],
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": [],
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": [
+        {
+          "task_id": "00dbd492",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.84,
+          "baseline_order": 0.5258,
+          "best_train_order": 1.7688,
+          "order_gain_achieved": 1.243,
+          "mean_remaining_energy": 0.9585,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 36,
+          "latent_bypasses": 36,
+          "lens_warps": 404,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_majority_color_fill_holes_c4"
+          ]
+        },
+        {
+          "task_id": "12eac192",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.7969,
+          "baseline_order": 0.6082,
+          "best_train_order": 1.5625,
+          "order_gain_achieved": 0.9543,
+          "mean_remaining_energy": 0.9876,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 9,
+          "latent_bypasses": 9,
+          "lens_warps": 610,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c3",
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0",
+            "sensorimotor_chunk_smallest_enclosed_hole_fill_holes_c8"
+          ]
+        },
+        {
+          "task_id": "150deff5",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.7614,
+          "baseline_order": 0.1376,
+          "best_train_order": 1.4541,
+          "order_gain_achieved": 1.3166,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 305,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c8",
+            "sensorimotor_chunk_all_fill_holes_c2"
+          ]
+        },
+        {
+          "task_id": "17b80ad2",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.3426,
+          "baseline_order": 0.5507,
+          "best_train_order": 1.4952,
+          "order_gain_achieved": 0.9444,
+          "mean_remaining_energy": 0.9879,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 17,
+          "latent_bypasses": 17,
+          "lens_warps": 205,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_border_from_anchor",
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_dyadic_no_hole_to_has_hole_connect_to_anchor"
+          ]
+        },
+        {
+          "task_id": "17b866bd",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.6518,
+          "baseline_order": 0.7384,
+          "best_train_order": 1.5647,
+          "order_gain_achieved": 0.8263,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 206,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_largest_enclosed_hole_recolor_c4",
+            "sensorimotor_chunk_mirror_hand_recolor_from_anchor_smallest_4"
+          ]
+        },
+        {
+          "task_id": "182e5d0f",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.9286,
+          "baseline_order": 0.6965,
+          "best_train_order": 1.6706,
+          "order_gain_achieved": 0.9741,
+          "mean_remaining_energy": 1.0,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 32,
+          "latent_bypasses": 32,
+          "lens_warps": 309,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_fill_holes_from_anchor_consume",
+            "sensorimotor_chunk_mirror_hand_connect_to_anchor_smallest_7"
+          ]
+        },
+        {
+          "task_id": "1acc24af",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.9722,
+          "baseline_order": 0.8408,
+          "best_train_order": 1.8795,
+          "order_gain_achieved": 1.0387,
+          "mean_remaining_energy": 0.9594,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 409,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_minority_color_recolor_c2"
+          ]
+        },
+        {
+          "task_id": "1d61978c",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.9961,
+          "baseline_order": 0.34,
+          "best_train_order": 1.6955,
+          "order_gain_achieved": 1.3555,
+          "mean_remaining_energy": 0.9801,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 8,
+          "latent_bypasses": 8,
+          "lens_warps": 204,
+          "active_ach_lens": "polar_centroid",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_all_recolor_c8",
+            "sensorimotor_chunk_smallest_recolor_c2"
+          ]
+        }
+      ],
+      "missing_compositional_motor_affordance_stagnation": []
+    }
+  },
+  "InterStage_Sleep_Consolidation_After_ARC2_Train": {
+    "dream_cycles": 12,
+    "episodes_replayed": 68,
+    "ripple_replays_executed": 8160,
+    "ib_ltp_invariant_synapses": 53972,
+    "ib_ltd_pruned_synapses": 68820,
+    "synaptic_homeostasis_downscalings": 711,
+    "invariant_variance_ratio": 0.17047,
+    "pure_motor_schemas_crystallized": 0,
+    "mutated_dreams_generated": 384,
+    "stage1_stage2_chimera_count": 32,
+    "counterfactual_mutated_templates": 2,
+    "bred_composite_tools_count": 1,
+    "nested_hierarchical_tools_count": 0,
+    "dream_ast_recombined_stepping_stones": 0,
+    "de_novo_codons_synthesized_count": 0,
+    "basal_ganglia_chunks_promoted": 0,
+    "basal_ganglia_reflex_chunks_total": 44,
+    "synaptic_tool_pruning": {
+      "pruning_cycles_run": 364,
+      "tools_before_pruning": 1,
+      "essential_tools_retained": 1,
+      "bred_recipes_retained": 2,
+      "nested_recipes_retained": 0,
+      "tools_pruned_this_cycle": 0,
+      "tools_pruned_cumulative": 0,
+      "mean_tool_efe_efficiency": 1.7211
+    },
+    "specialist_roles_differentiated": 8,
+    "thermal_spike_burst_density": 0.2177,
+    "mean_dream_resonance_before": 8.593,
+    "mean_dream_resonance_after": 10.1642,
+    "synaptic_consolidation_delta": 0.05498
+  },
+  "Stage3_ARC_AGI_2_Evaluation_120": {
+    "stage_name": "Stage3_ARC_AGI_2_Evaluation_120",
+    "total_tasks": 120,
+    "elapsed_sec": 482.71,
+    "train_exact_solved_count": 0,
+    "train_exact_solve_rate_pct": 0.0,
+    "test_top1_solved_count": 0,
+    "test_top1_solve_rate_pct": 0.0,
+    "test_top2_solved_count": 0,
+    "test_top2_solve_rate_pct": 0.0,
+    "axis_solve_distribution": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    "mechanism_solve_contributions": {
+      "basal_ganglia_reflex_solves": 0,
+      "counterfactual_gaba_bypass_solves": 0,
+      "ach_topological_lens_solves": 0,
+      "sensorimotor_chunk_solves": 0,
+      "ast_organ_or_codon_solves": 0
+    },
+    "unsolved_total_count": 120,
+    "unsolved_biological_cause_counts": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 0,
+      "dynamic_canvas_shape_warping_deficit": 105,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 15,
+      "missing_compositional_motor_affordance_stagnation": 0
+    },
+    "unsolved_biological_cause_share_pct": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 0.0,
+      "dynamic_canvas_shape_warping_deficit": 87.5,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0.0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0.0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 12.5,
+      "missing_compositional_motor_affordance_stagnation": 0.0
+    },
+    "solved_tasks_list": [],
+    "unsolved_samples_by_cause": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": [],
+      "dynamic_canvas_shape_warping_deficit": [
+        {
+          "task_id": "0934a4d8",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.08,
+          "best_train_order": 1.6201,
+          "order_gain_achieved": 1.5401,
+          "mean_remaining_energy": 0.94,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 2,
+          "latent_bypasses": 0,
+          "lens_warps": 2,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 10,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_largest_enclosed_hole_crop_grasped"
+          ]
+        },
+        {
+          "task_id": "136b0064",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.4826,
+          "best_train_order": 1.8655,
+          "order_gain_achieved": 1.3829,
+          "mean_remaining_energy": 0.9821,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 24,
+          "latent_bypasses": 23,
+          "lens_warps": 3,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 8,
+          "shape_change_required": true,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_align_to_anchor_row"
+          ]
+        },
+        {
+          "task_id": "13e47133",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.3527,
+          "best_train_order": 1.7006,
+          "order_gain_achieved": 1.3479,
+          "mean_remaining_energy": 0.9821,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 5,
+          "latent_bypasses": 5,
+          "lens_warps": 155,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 7,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_zoom_interior_room",
+            "sensorimotor_chunk_stamp_has_hole_on_no_hole_markercol",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_align_to_anchor_col"
+          ]
+        },
+        {
+          "task_id": "142ca369",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.4043,
+          "best_train_order": 1.7941,
+          "order_gain_achieved": 1.3898,
+          "mean_remaining_energy": 0.988,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 10,
+          "latent_bypasses": 10,
+          "lens_warps": 159,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_border_from_anchor",
+            "sensorimotor_chunk_stamp_majority_color_on_minority_color_markercol",
+            "sensorimotor_chunk_non_texture_foreground_fill_holes_c3"
+          ]
+        },
+        {
+          "task_id": "16b78196",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.8404,
+          "best_train_order": 2.0573,
+          "order_gain_achieved": 1.2168,
+          "mean_remaining_energy": 0.9742,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 106,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 7,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_dyadic_majority_color_to_minority_color_align_to_anchor_col",
+            "sensorimotor_chunk_dyadic_largest_to_smallest_align_to_anchor_col"
+          ]
+        },
+        {
+          "task_id": "16de56c4",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.5427,
+          "best_train_order": 1.7632,
+          "order_gain_achieved": 1.2205,
+          "mean_remaining_energy": 0.9542,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 38,
+          "latent_bypasses": 38,
+          "lens_warps": 154,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_dyadic_majority_color_to_minority_color_border_from_anchor"
+          ]
+        },
+        {
+          "task_id": "195c6913",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.5768,
+          "best_train_order": 1.84,
+          "order_gain_achieved": 1.2632,
+          "mean_remaining_energy": 0.9881,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 155,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_zoom_interior_room",
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_fill_holes_from_anchor",
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0",
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_border_from_anchor"
+          ]
+        },
+        {
+          "task_id": "1ae2feb7",
+          "primary_cause": "dynamic_canvas_shape_warping_deficit",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.0,
+          "baseline_order": 0.5145,
+          "best_train_order": 1.7602,
+          "order_gain_achieved": 1.2457,
+          "mean_remaining_energy": 0.9816,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 10,
+          "latent_bypasses": 10,
+          "lens_warps": 308,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": true,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_align_to_anchor_col",
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_border_from_anchor"
+          ]
+        }
+      ],
+      "prefrontal_gaba_trap_without_matching_latent_operator": [],
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": [],
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": [
+        {
+          "task_id": "135a2760",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.6897,
+          "baseline_order": 0.8817,
+          "best_train_order": 1.8434,
+          "order_gain_achieved": 0.9617,
+          "mean_remaining_energy": 0.9588,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 20,
+          "latent_bypasses": 20,
+          "lens_warps": 206,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 3,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_largest_enclosed_hole_recolor_c1",
+            "sensorimotor_chunk_all_fill_holes_c4"
+          ]
+        },
+        {
+          "task_id": "1818057f",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.6178,
+          "baseline_order": 0.6392,
+          "best_train_order": 1.7969,
+          "order_gain_achieved": 1.1577,
+          "mean_remaining_energy": 0.9876,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 32,
+          "latent_bypasses": 32,
+          "lens_warps": 457,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 2,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_no_hole_recolor_c8",
+            "sensorimotor_chunk_smallest_recolor_c4",
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_connect_to_anchor"
+          ]
+        },
+        {
+          "task_id": "247ef758",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.8933,
+          "baseline_order": 0.732,
+          "best_train_order": 1.7439,
+          "order_gain_achieved": 1.0119,
+          "mean_remaining_energy": 0.9464,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 6,
+          "latent_bypasses": 6,
+          "lens_warps": 306,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_dyadic_no_hole_to_has_hole_fill_holes_from_anchor_consume",
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0"
+          ]
+        },
+        {
+          "task_id": "28a6681f",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.72,
+          "baseline_order": 0.7855,
+          "best_train_order": 1.9742,
+          "order_gain_achieved": 1.1888,
+          "mean_remaining_energy": 0.9676,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 23,
+          "latent_bypasses": 23,
+          "lens_warps": 308,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 4,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_target_non_texture_foreground_crop_grasped",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_fill_holes_from_anchor_consume",
+            "sensorimotor_chunk_dyadic_has_hole_to_no_hole_connect_to_anchor"
+          ]
+        },
+        {
+          "task_id": "2b83f449",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.7895,
+          "baseline_order": 0.6241,
+          "best_train_order": 1.7046,
+          "order_gain_achieved": 1.0806,
+          "mean_remaining_energy": 0.9526,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 13,
+          "latent_bypasses": 13,
+          "lens_warps": 410,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 7,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0"
+          ]
+        },
+        {
+          "task_id": "332f06d7",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.92,
+          "baseline_order": 0.765,
+          "best_train_order": 1.7759,
+          "order_gain_achieved": 1.0109,
+          "mean_remaining_energy": 0.9589,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 46,
+          "latent_bypasses": 46,
+          "lens_warps": 617,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 7,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_smallest_recolor_c1",
+            "sensorimotor_chunk_minority_color_recolor_c0"
+          ]
+        },
+        {
+          "task_id": "64efde09",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.8026,
+          "baseline_order": 0.5583,
+          "best_train_order": 2.0242,
+          "order_gain_achieved": 1.4659,
+          "mean_remaining_energy": 0.9739,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 103,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 6,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0>>gaze_salient_target:wm_store_attr:finger_apply_to_gaze:all::0:0:0:0",
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_border_from_anchor",
+            "sensorimotor_chunk_dyadic_minority_color_to_majority_color_border_from_anchor"
+          ]
+        },
+        {
+          "task_id": "7491f3cf",
+          "primary_cause": "working_memory_horizon_and_atp_exhaustion_after_partial_progress",
+          "solved_train_exact": false,
+          "alt_candidate_solved_test": false,
+          "test_pixel_acc": 0.8914,
+          "baseline_order": 0.7411,
+          "best_train_order": 1.75,
+          "order_gain_achieved": 1.009,
+          "mean_remaining_energy": 0.9817,
+          "survival_rate_pct": 100.0,
+          "gaba_blocks": 0,
+          "latent_bypasses": 0,
+          "lens_warps": 1022,
+          "active_ach_lens": "torus_cylinder",
+          "foveal_objects_count": 5,
+          "shape_change_required": false,
+          "test_shape_mismatch": false,
+          "program": [
+            "sensorimotor_chunk_composite_gaze_salient_target:wm_store_attr:finger_apply_to_gaze:non_texture_foreground::0:0:0:0",
+            "sensorimotor_chunk_non_texture_foreground_fill_holes_c3"
+          ]
+        }
+      ],
+      "missing_compositional_motor_affordance_stagnation": []
+    }
+  },
+  "Biological_Telemetry_Totals": {
+    "prefrontal_gaba_blocks_total": 21493,
+    "latent_feature_bypasses_total": 20236,
+    "topological_lens_warps_total": 363226,
+    "ripple_replays_executed_total": 378460,
+    "ib_ltp_invariant_synapses_total": 22555354,
+    "ib_ltd_pruned_synapses_total": 27252693,
+    "cross_example_diff_comparisons_total": 6233,
+    "basal_ganglia_reflex_hits_total": 7,
+    "cerebellar_error_corrections_total": 10715,
+    "prefrontal_dynamic_chains_total": 1,
+    "foveal_saccades_executed_total": 75818,
+    "v1_v2_texture_segregations_total": 460204,
+    "v1_v2_constellation_groups_total": 2636251,
+    "v1_v2_hierarchical_expansions_total": 0,
+    "virtual_scratchpad_projections_total": 0,
+    "scratchpad_inverse_backprojections_total": 0,
+    "subgoal_checkpoints_locked_total": 5177,
+    "subgoal_non_destructive_vetoes_total": 507,
+    "it_parietal_relational_bindings_total": 0,
+    "cerebellar_valley_crossing_macros_total": 0,
+    "pfc_dyadic_bindings_total": 2785143,
+    "foveal_window_zooms_total": 1374627,
+    "motor_stamp_executions_total": 371371,
+    "ior_sequential_saccades_total": 635858,
+    "epistemic_atp_invested_total": 679.3492,
+    "aha_dopamine_bursts_total": 43397,
+    "seated_tabletop_focus_engagements_total": 1920,
+    "tabletop_25d_projections_total": 1920,
+    "head_tilt_viewpoint_shifts_total": 0,
+    "mirror_neuron_imitations_total": 5668,
+    "autotelic_play_bouts_total": 3840,
+    "hand_regard_self_imitations_total": 3748,
+    "developmental_stage": 3,
+    "critical_period_transitions_total": 2,
+    "ach_habit_resets_total": 2069,
+    "einstellung_fixation_prevented_total": 2092,
+    "synaptic_homeostasis_downscalings_total": 778,
+    "triple_overfit_guards_triggered_total": 1943,
+    "external_workbench_interactions_total": 1920,
+    "unified_brain_status": {
+      "sensory_pth": true,
+      "sensory_onnx": true,
+      "neocortex_pth": true,
+      "neocortex_gguf": true,
+      "motor_pth": true,
+      "motor_onnx": true
+    }
+  },
+  "Aggregate_Unsolved_Biological_Taxonomy": {
+    "total_unsolved_across_1920_tasks": 1848,
+    "cause_counts": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 4,
+      "dynamic_canvas_shape_warping_deficit": 1464,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 371,
+      "missing_compositional_motor_affordance_stagnation": 9
+    },
+    "cause_share_pct": {
+      "counterfactual_test_overfit_or_hidden_test_invariant": 0.22,
+      "dynamic_canvas_shape_warping_deficit": 79.22,
+      "prefrontal_gaba_trap_without_matching_latent_operator": 0.0,
+      "perceptual_foveal_crowding_and_multi_object_binding_limit": 0.0,
+      "working_memory_horizon_and_atp_exhaustion_after_partial_progress": 20.08,
+      "missing_compositional_motor_affordance_stagnation": 0.49
+    }
+  }
+}

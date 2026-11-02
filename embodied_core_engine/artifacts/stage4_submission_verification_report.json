@@ -1,0 +1,19 @@
+{
+  "engine": "Stage4_Lightweight_20W_Submission_Inference_Engine",
+  "checkpoint_salvaged": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\checkpoints\\checkpoint_latest.npz",
+  "dataset_evaluated": "C:\\Users\\sukuy\\Desktop\\suku spaces\\arc-creativity-engine\\embodied_core_engine\\artifacts\\external_arc_databank\\arc_agi_2_eval",
+  "tasks_processed": 5,
+  "elapsed_sec": 30.68,
+  "ms_per_task": 6136.0,
+  "train_exact_solved_count": 0,
+  "test_attempt1_exact_count": 0,
+  "test_pass_at_2_exact_count": 0,
+  "test_solve_rate_pct": 0.0,
+  "mean_spike_firing_rate": 0.3187,
+  "mean_thought_energy": 0.0487,
+  "essential_cultural_tools_packed": 24,
+  "bred_recipes_packed": 12,
+  "nested_recipes_packed": 10,
+  "submission_file": "test_submission_sample.json",
+  "solved_task_ids": []
+}
