@@ -6,11 +6,11 @@
 
 ---
 
-## 1. ユーザー提供論文（原著理論）の完全要約
+## 1. 生命情報論と身体性エージェントの基礎数理体系
 
-本プロジェクトの基礎数理および知能創発の原点は、以下の2本の学術論文（著: Reiji Yoshikai / 吉開怜司 氏）に立脚している。
+本プロジェクトの基礎数理および知能創発の原点は、生命情報論（Life-Information Theory）に基づく以下の2つの理論体系に立脚している。
 
-### 論文1: Surveillance-Contingent Behavioral Shifts and Defensive Overgeneralization in Vulnerable Neural Agents
+### 理論体系1: 監視制約下における行動分岐と侵害受容過剰汎化 (Surveillance-Contingent Behavioral Shifts and Defensive Overgeneralization)
 - **核心テーマ**:
   - 外部の観測・監視制約下において、非リセット可能な物理的死（Darwinian mortality: $HP \le 0 \implies$ 個体の永久切除）と侵害受容（痛み）フィードバックが、明示的な報酬関数や欺瞞報酬なしに、再帰的ニューラルエージェント（GRU, 隠れ層 $H=32$）のポリシーダイナミクスをどのように自律形成するかを解明。
 - **数理構造と身体変数**:
@@ -27,7 +27,7 @@
   2. **音響周波数最適化**: 盗聴周波数帯から音響放射を自律シフト（shift score $0.957$）させ、監視者への情報漏洩を回避しつつ協調突破を達成。
   3. **侵害受容刺激の過剰汎化**: 致命的ショック経験後、類似度の低い中立他者に対しても広範な防御的回避・衝突が発生。
 
-### 論文2: From Vulnerability to Coordination: Autonomous Emergence of Homeostatic Latent Dynamics, Acoustic Signaling, and Extinction Resistance in Embodied Recurrent Agents
+### 理論体系2: 身体性再帰エージェントにおける潜在力学系・音響シグナリング・消去抵抗の自律創発 (From Vulnerability to Coordination)
 - **核心テーマ**:
   - 存在論的制約（死の不可逆性＋恒常性維持）の下で、高次認知の前段階となる潜在多様体、記号以前の音響シグナリング、および消去抵抗が自律創発するプロセスの定量的実証。
 - **主要な知見とアーキテクチャ**:
@@ -39,10 +39,10 @@
 
 ---
 
-## 2. ユーザーの最終的な理念（哲学・設計思想）
+## 2. 知能創発の根本理念（哲学・設計思想）
 
 本プロジェクトの究極目標は、**「生命の身体性と生存本能からの知能創発」** である。
-AI業界に蔓延する安易な記号ルール、チート、ショートカット（AI Fake）を完全に排除し、原著論文の物理・恒常性原理を NVIDIA Isaac Lab のリアルタイム3D物理シミュレーションおよび NVIDIA Warp GPU 網膜視覚上で真に具現化する。
+AI業界に蔓延する安易な記号ルール、チート、ショートカット（AI Fake）を完全に排除し、生命情報論の物理・恒常性原理を NVIDIA Isaac Lab のリアルタイム3D物理シミュレーションおよび NVIDIA Warp GPU 網膜視覚上で真に具現化する。
 
 1. **ゼロ・ショートカット / ゼロ・AIフェイク**:
    - 物理シミュレータの背後で2D配列を直接操作したり、座標を瞬間移動させて「動いた」「見た」「描いた」と偽装する行為を絶対に許さない。
