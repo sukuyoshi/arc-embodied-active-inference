@@ -2,9 +2,9 @@
 
 Official Implementation and Research Artifacts for ARC Prize 2026 Paper Track.
 
-Autonomous Embodied Artificial General Intelligence architecture grounded in Reiji Yoshikai's Life-Information Theory, Karl Friston's Free Energy Principle, and Michael Tomasello's Cumulative Cultural Scaffolding.
+Autonomous Embodied Artificial General Intelligence architecture grounded in Life-Information Theory, Karl Friston's Free Energy Principle, and Cumulative Cultural Scaffolding.
 
-Repository: `https://github.com/sukuyoshi/arc-embodied-active-inference`  
+Repository: `https://github.com/anonymous-embodied-agi/arc-embodied-active-inference` (Double-Blind Anonymized)  
 License: MIT License
 
 ---
@@ -21,7 +21,7 @@ Through sleep-state hippocampal replay and synaptic plasticity consolidation (LT
 
 ## Theoretical Pillars
 
-1. **Life-Information Theory (Reiji Yoshikai)**:
+1. **Life-Information Theory**:
    Intelligence cannot arise in an immortal or disembodied system. Irreversible mortality constitutes the ultimate boundary condition, producing intrinsic value, meaning, and true homeostatic urgency.
 2. **Active Inference and Free Energy Principle (Karl Friston)**:
    Action and perception are coupled to minimize variational and expected free energy under visceral pain, energy, and surprise constraints.
@@ -74,7 +74,7 @@ The model was verified on the official Kaggle ARC-AGI-2 test benchmark:
 ### Installation
 
 ```bash
-git clone https://github.com/sukuyoshi/arc-embodied-active-inference.git
+git clone https://github.com/anonymous-embodied-agi/arc-embodied-active-inference.git
 cd arc-embodied-active-inference/arc-creativity-engine/embodied_core_engine
 pip install -r requirements.txt
 ```
