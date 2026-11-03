@@ -11,13 +11,15 @@ License: MIT License
 
 ## **Instant Dual-Mode Verification (100% Reproducibility in Seconds)**
 
-**Clone and verify the complete benchmark results immediately with zero external dependencies (PyTorch + NumPy only):**
+**Zero-Simulator Dependency**: While Stage 1 grounding utilized 3D physics simulators (Isaac Lab / NVIDIA Warp), reviewers do **NOT** need to install or configure any complex simulation environment. The standalone evaluator (`evaluate_engine.py`) operates completely independently using only standard **PyTorch and NumPy**, coupling consolidated basal ganglia synaptic weights (`checkpoint_latest.npz`) directly to the discrete grid engine.
+
+Clone and verify the complete benchmark results immediately in under 5 seconds:
 
 ```bash
 git clone https://github.com/sukuyoshi/arc-embodied-active-inference.git
 cd arc-embodied-active-inference
 
-# 1. Verify 120-Task Benchmark & Plasticity Telemetry (SHA-256 Digest & 68K Synapses Verified):
+# 1. Verify 120-Task Benchmark & Plasticity Telemetry (SHA-256 Digest & 68K Synapses Verified in 3s):
 python evaluate_engine.py --verify_120_benchmark
 
 # 2. Run Instant 1-Shot Intuition Solutions (100% Exact Match on Task 00d62c1b & 3c9b0459 in 4s):
@@ -30,7 +32,7 @@ python evaluate_engine.py
 
 Traditional approaches to the Abstraction and Reasoning Corpus (ARC / ARC-AGI-2) rely heavily on disembodied Large Language Models (LLMs) with massive pretraining, prompt engineering, or brute-force search over handwritten Domain-Specific Languages (DSLs). These models consume thousands of watts and lack genuine grounding, suffering from severe sample inefficiency and fragility when confronted with multi-step composition or spatial novelties.
 
-In contrast, this project presents an ultra-lightweight architecture of **459,930 parameters (<2MB)** designed for 20W-class edge neuromorphic deployment with **zero pretraining data (Tabula Rasa)**. The system is grounded in a 4-biome 3D physics survival environment where irreversible mortality (permanent termination at $HP \le 0$), homeostatic drive, and visceral pain dynamically govern active inference.
+In contrast, this project presents an ultra-lightweight architecture of **459,930 parameters (<2MB)** designed for 20W-class edge neuromorphic deployment under **task-level Tabula Rasa (zero internet corpora, zero puzzle pretraining, zero task priors)**. The system is grounded in a 4-biome 3D physics survival environment where irreversible mortality (permanent termination at $HP \le 0$), homeostatic drive, and visceral pain dynamically govern active inference.
 
 Through sleep-state hippocampal replay and synaptic plasticity consolidation (68,914 LTP reinforcements and 68,641 LTD prunings), the organism crystallizes high-order intuition organs in the basal ganglia. Under an extreme low-compute ablation restricting search to 8 steps on 20W hardware, the unassisted test exact-match score was 0.00 across 240 Kaggle hidden test tasks and 0.0% across all 120 local ARC-AGI-2 evaluation tasks. Crucially, on geometric tasks mathematically isomorphic to sensorimotor schemas, the engine achieved **instantaneous one-shot exact solutions on Task 00d62c1b (enclosure fill) and Task 3c9b0459 (rigid rotation) in a single step (`steps=1, train_exact=True, test_exact=True`)**.
 
