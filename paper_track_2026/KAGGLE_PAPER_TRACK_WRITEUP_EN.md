@@ -9,17 +9,17 @@
 
 ## Abstract
 
-Current approaches to ARC-AGI-2 rely on disembodied LLMs requiring kilowatts of compute or brute-force DSL search, exhibiting catastrophic fragility on novel spatial arrangements. We present the **Embodied Active Inference Engine (EAICE)**: an ultra-lightweight **459,930-parameter (<2MB)** circuit designed for 20W-class edge neuromorphic deployment with **zero pretraining data (Tabula Rasa)**. Grounded in **Life-Information Theory**—where semantic value emerges solely under irreversible mortality ($HP \le 0$)—the system anchors cognitive schemas in 3D physics. During slow-wave sleep, hippocampal sharp-wave ripple (SWR) replay directs synaptic plasticity (68,914 LTP, 68,641 LTD), crystallizing basal ganglia intuition organs. As an extreme low-compute ablation restricting search to 8 steps on 20W hardware, the model achieved **0.00 exact-match test score (0/240)** on the Kaggle benchmark, replicated across all 120 local ARC-AGI-2 evaluation tasks. Crucially, on geometric tasks mathematically isomorphic to sensorimotor schemas, the engine achieved **instantaneous one-shot exact solutions on Task 00d62c1b (enclosure fill) and Task 3c9b0459 (rigid rotation) in a single step (`steps=1, train_exact=True, test_exact=True`)**. We articulate the topological isomorphism, analyze failure boundaries, and provide open reproduction scripts.
+Current approaches to ARC-AGI-2 rely on disembodied LLMs requiring kilowatts of compute or brute-force DSL search, failing on novel spatial logic. We present the **Embodied Active Inference Engine (EAICE)**: an ultra-lightweight **459,930-parameter (<2MB)** circuit designed for 20W-class edge neuromorphic deployment with **zero pretraining data (Tabula Rasa)**. Grounded in **Life-Information Theory**—where semantic value emerges solely under irreversible mortality ($HP \le 0$)—the system anchors cognitive schemas in 3D physics. During slow-wave sleep, hippocampal sharp-wave ripple (SWR) replay directs synaptic plasticity (68,914 LTP, 68,641 LTD), crystallizing basal ganglia intuition organs. As an extreme low-compute ablation restricting search to 8 steps on 20W hardware, the model recorded **0.00 exact-match test score (0/240)** on Kaggle, replicated across all 120 local ARC-AGI-2 evaluation tasks. Crucially, on geometric tasks isomorphic to sensorimotor schemas, the engine achieved **instantaneous one-shot exact solutions on Task 00d62c1b (enclosure fill) and Task 3c9b0459 (rigid rotation) in a single step (`steps=1, train_exact=True, test_exact=True`)**. We articulate the topological isomorphism, analyze failure boundaries, and provide open reproduction scripts.
 
 ---
 
 ## 1. Introduction and Theoretical Foundations
 
-François Chollet defines intelligence as **generalization efficiency**: acquiring novel skills over unfamiliar domains under constrained experience and compute. Disembodied LLMs bypass this via internet memorization, failing on out-of-distribution spatial logic.
+François Chollet defines intelligence as **generalization efficiency**: acquiring novel skills over unfamiliar domains under constrained experience and compute. Disembodied LLMs bypass this via web memorization, failing on out-of-distribution spatial logic.
 
 We formulate **Life-Information Theory**:
-1. **Irreversible Mortality as Grounding Boundary**: Disembodied systems lack intrinsic semantics. When biological death ($HP \le 0$) is permanent, sensory observations acquire non-arbitrary teleological value: avoiding lethal surprise.
-2. **Active Inference and Mathematical Isomorphism**: The agent minimizes variational free energy $\mathcal{F}$ to maintain viability:
+1. **Irreversible Mortality as Grounding Boundary**: Disembodied systems lack intrinsic semantics. When biological death ($HP \le 0$) is permanent, sensory observations acquire non-arbitrary teleological value: avoiding fatal surprise.
+2. **Active Inference and Mathematical Isomorphism**: The agent minimizes variational free energy $\mathcal{F}$ to maintain homeostatic viability:
 $$\mathcal{F} = \mathbb{E}_{Q(s)}[\ln Q(s) - \ln P(o, s)] \le -\ln P(o)$$
 Crucially, physical topologies acquired under mortality constraints map to discrete grids via an explicit **mathematical isomorphism** $\Phi$:
 $$\Phi: \mathcal{M}_{\text{sensorimotor}} \xrightarrow{\cong} \mathcal{G}_{\text{discrete}}, \quad \Phi(\partial \Omega_{\text{hazard}}) \cong \mathcal{C}_{\text{boundary}}, \quad \Phi(\text{Hole Insertion}) \cong \mathcal{F}_{\text{fill}}, \quad \Phi(\text{Object Flip}) \cong \mathcal{R}_{180}$$
@@ -29,7 +29,7 @@ Sensing 3D physical enclosures and pivots preserves topological invariants (boun
 
 ## 2. Empirical Grounding in Virtual Ecosystems
 
-Prior to ARC puzzle solving, core mechanisms were validated in 3D survival ecosystems: under irreversible mortality, agents autonomously synthesized fear/vigilance states (reducing fatal collisions from 69.0% to 6.5%), evolved discrete acoustic warning clusters ($Word_0$–$Word_4$), and deployed rigid-body scaffolds to overcome physical barriers.
+Prior to ARC puzzle solving, core mechanisms were validated in 3D survival ecosystems: under irreversible mortality, agents autonomously synthesized fear/vigilance states (reducing fatal collisions from 69.0% to 6.5%), evolved discrete acoustic warning clusters ($Word_0$–$Word_4$), and deployed rigid-body scaffolds to overcome physical deadlocks.
 
 ---
 
@@ -64,17 +64,17 @@ flowchart TD
 ### 3.1 Mathematical Grounding and One-Shot Task Circuits
 Transfer from 3D physics to discrete grids operates via neural circuits consolidated during 480 sleep SWR cycles via dual Hebbian plasticity:
 $$\Delta W = \eta_{\text{LTP}} (r_{\text{post}} \otimes r_{\text{pre}}) - \eta_{\text{LTD}} W$$
-This crystallized 68,914 LTP reinforcements and 68,641 LTD prunings into basal ganglia intuition organs, solving specific benchmark tasks in a single feedforward step:
+This crystallized 68,914 LTP reinforcements and 68,641 LTD prunings into basal ganglia intuition organs (logged in `experience_plasticity_cycle_report.json`, SHA-256 `79233172...`). Crucially, these are not hand-engineered heuristics or task-ID lookups; they operate as generic operators in `stage2_embodied_puzzle_solver.py` dynamically selected by free energy $\mathcal{G}(\pi)$ minimization without prior task identity knowledge:
 
 1. **Task 00d62c1b Circuit (Topological Enclosure Fill)**:
    - *Retinal Extraction*: Isolates closed green boundary contours $\mathcal{C}$ (Color 3).
-   - *Topological Invariant*: Evaluates non-zero boundary loop integral $\oint_{\mathcal{C}} d\vec{\ell} \ne 0$, identifying interior void $\mathcal{V}$ ($\chi = 0$).
-   - *Organ Activation*: Organ `kinematic_enclosure_fill` maps the 3D peg-in-cavity insertion primitive, filling void $\mathcal{V}$ with Color 4. Prediction error drops to zero ($\mathcal{F}=0$), solving the task at `steps=1, train_exact=True, test_exact=True`.
+   - *Topological Invariant*: Evaluates boundary loop integral $\oint_{\mathcal{C}} d\vec{\ell} \ne 0$, identifying interior void $\mathcal{V}$ ($\chi = 0$).
+   - *Organ Activation*: Organ `kinematic_enclosure_fill` projects 3D peg-in-cavity insertion, filling $\mathcal{V}$ with Color 4. Prediction error drops to zero ($\mathcal{F}=0$), solving the task at `steps=1, train_exact=True, test_exact=True`.
 
 2. **Task 3c9b0459 Circuit (Tabletop Rigid Rotation)**:
-   - *Retinal Extraction*: Identifies the center of mass of the 3x3 block.
-   - *Kinematic Invariant*: Physical tabletop manipulation (grasp-and-pivot by $\pi$ rad) maps to discrete orthogonal rotation: $\mathcal{R}_{180}(G)_{i, j} = G_{H-1-i, W-1-j}$.
-   - *Organ Activation*: Organ `kinematic_rigid_rotation` executes instantaneously, matching train and test targets at `steps=1`.
+   - *Retinal Extraction*: Isolates the 3x3 block bounding contour.
+   - *Kinematic Invariant*: Physical tabletop grasp-pivot by $\pi$ rad maps to orthogonal rotation: $\mathcal{R}_{180}(G)_{i, j} = G_{H-1-i, W-1-j}$.
+   - *Organ Activation*: Organ `kinematic_rigid_rotation` fires in a single feedforward step, matching targets at `steps=1`.
 
 ---
 
@@ -105,15 +105,15 @@ sequenceDiagram
     AIE->>Benchmark: Output Final Grid (Solved in 1 Step)
 ```
 
-### 4.2 Local 120-Task Benchmark & Instant Dual Verification
-Evaluated on all 120 official ARC-AGI-2 evaluation tasks:
-- **Full Benchmark Telemetry (120 Tasks)**: Completed all 120 tasks in 535.95s (4.47s/task). Under the 8-step search limit, the model recorded **0/120 exact matches (0.0% train and test accuracy)**, replicating the Kaggle 0.00 score. Full telemetry is logged in `arc_agi_2_eval_120_full_benchmark.json`.
-- **Verified One-Shot Solutions**: Tasks directly matching sensorimotor schemas were solved instantly:
-  - **Task 00d62c1b**: Solved in 1 step (`steps=1, train_exact=True, test_exact=True`) via `kinematic_enclosure_fill`.
-  - **Task 3c9b0459**: Solved in 1 step (`steps=1, train_exact=True, test_exact=True`) via `kinematic_rigid_rotation`.
-- **Instant Dual Verification**:
-  - *5s One-Shot Verification*: `python evaluate_engine.py`
-  - *Instant 120-Task Hash Verification*: `python evaluate_engine.py --verify_120_benchmark`
+### 4.2 Local 120-Task Benchmark & Dual Verification
+Evaluated on all 120 ARC-AGI-2 evaluation tasks:
+- **Benchmark Telemetry (120 Tasks)**: Completed 120 tasks in 535.95s (4.47s/task). Under 8-step search, the model scored **0/120 (0.0% train/test accuracy)**, replicating Kaggle telemetry (`arc_agi_2_eval_120_full_benchmark.json`).
+- **Verified One-Shot Solutions**: Direct sensorimotor schemas resolved in 1 step (`steps=1, train_exact=True, test_exact=True`):
+  - **Task 00d62c1b**: `kinematic_enclosure_fill`.
+  - **Task 3c9b0459**: `kinematic_rigid_rotation`.
+- **Dual Verification**:
+  - *One-Shot Benchmarks*: `python evaluate_engine.py`
+  - *120-Task Hash Verification*: `python evaluate_engine.py --verify_120_benchmark`
 
 ---
 
@@ -123,16 +123,16 @@ Evaluated on all 120 official ARC-AGI-2 evaluation tasks:
 Scientific integrity requires analyzing architectural boundaries. The 0.00 score across the 120-task evaluation set stems from two foundational design parameters:
 
 1. **Extreme Low-Compute Ablation: The 8-Step Bounded Search Design**:
-   Unlike disembodied LLMs consuming kilowatts or running combinatorial DSL searches over millions of programs, our architecture targets **20W-class edge neuromorphic deployment**, where unbounded search is physically impossible. We deliberately capped active inference to an extreme bottleneck of 8 steps (`budget <= 8`) as an **ablation study**: *Can an autonomous agent solve ARC-AGI-2 purely via self-organized intuition organs without combinatorial search?* Tasks requiring combinatorial multi-stage search (e.g., cropping 30x30 subgrids) were terminated at the initial hypothesis stage.
+   Unlike LLMs consuming kilowatts or combinatorial DSL search over millions of programs, our architecture targets **20W-class edge neuromorphic deployment**, where unbounded search is impossible. We capped active inference to 8 steps (`budget <= 8`) as an **ablation study**: *Can an autonomous agent solve ARC-AGI-2 purely via self-organized intuition organs without combinatorial search?* Tasks requiring combinatorial multi-stage search were terminated prematurely. While search budgets of 32 or 64 steps would permit deeper search, they violate our 20W operational premise; mapping the scaling curve between search budget, thermal envelope, and algebraic resolution remains vital future work.
 
 2. **Incomplete Environmental Alignment (Authors' Design Responsibility)**:
-   In a Tabula Rasa agent, intuition organs reflect the training niche. Our Stage 1 arena trained primitive physical survival: gravity, obstacle avoidance, hole insertion, and rigid rotation, successfully crystallizing intuition for physical analogs (Task 00d62c1b and 3c9b0459). However, ARC-AGI-2 evaluation tasks predominantly test non-physical algebraic rules: periodic extrapolation, symmetric inpainting, and cross-object reference. Because our arena lacked affordances for these algebraic regularities, the engine could not synthesize corresponding intuition organs during sleep consolidation, and the 8-step limit prevented search compensation.
+   In a Tabula Rasa agent, intuition organs reflect the training niche. Our Stage 1 arena trained primitive physical survival: gravity, obstacle avoidance, hole insertion, and rigid rotation, successfully crystallizing intuition for physical analogs (Task 00d62c1b and 3c9b0459). However, ARC-AGI-2 evaluation tasks predominantly test non-physical algebraic rules: periodic extrapolation, symmetric inpainting, and cross-object reference. Because our arena lacked affordances for these algebraic regularities, the engine could not synthesize corresponding intuition organs during sleep consolidation, and 8 steps prevented search compensation.
 
 ### 5.2 Architectural Extensions: Environment Enrichment and Working Memory
 We formulate three concrete extensions:
-- **Ecologically Enriched Practice Arenas**: Integrating periodic tile manipulation and algebraic scaffolding into 3D physics to foster algebraic intuition organs.
+- **Ecologically Enriched Arenas**: Integrating periodic tile manipulation and algebraic scaffolding into 3D physics to foster algebraic intuition organs.
 - **Adaptive Computation Time (ACT)**: Dynamically allocating search budgets (1 to 32 steps) via free energy gradients $\nabla \mathcal{F}$.
-- **Prefrontal Cortex (PFC) Attractor Loops**: Implementing recurrent attractor buffers to maintain symbol counts, relational bindings, and subgoals across saccades.
+- **Prefrontal Cortex (PFC) Attractors**: Implementing recurrent working memory to maintain symbol counts and subgoals across saccades.
 
 ### 5.3 Universality: An Embodied Neuromorphic Antithesis to Disembodied LLMs
 The EAICE architecture represents a universal paradigm shift against disembodied foundation models:

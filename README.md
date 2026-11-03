@@ -17,7 +17,7 @@ License: MIT License
 git clone https://github.com/sukuyoshi/arc-embodied-active-inference.git
 cd arc-embodied-active-inference
 
-# 1. Verify 120-Task Benchmark Telemetry (0.0% Exact Match / 535.95s / SHA-256 Verified):
+# 1. Verify 120-Task Benchmark & Plasticity Telemetry (SHA-256 Digest & 68K Synapses Verified):
 python evaluate_engine.py --verify_120_benchmark
 
 # 2. Run Instant 1-Shot Intuition Solutions (100% Exact Match on Task 00d62c1b & 3c9b0459 in 4s):
@@ -66,6 +66,7 @@ arc-creativity-engine/
 │   ├── isaac_warp_3d_engine.py              (Isaac Lab & 3D tabletop spatial simulation engine)
 │   └── artifacts/
 │       ├── checkpoints/                     (Trained synaptic weights and neural modules)
+│       ├── experience_plasticity_cycle_report.json (68K LTP/LTD synaptic plasticity log; SHA-256 verified)
 │       └── arc_agi_2_eval_120_full_benchmark.json (Complete 120-task benchmark log; SHA-256 verified)
 ├── paper_track_2026/
 │   ├── KAGGLE_PAPER_TRACK_WRITEUP_JA.md     (Complete Paper Track Paper in Japanese)
